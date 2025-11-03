@@ -318,11 +318,24 @@ def extract_game_date_from_boxscore(boxscore_file: Path) -> Optional[str]:
             # Try to extract date from gameInfo
             game_info = data.get('gameInfo', {})
             if 'dtTm' in game_info:
-                # Convert ESPN date format to YYYY-MM-DD
+                # Convert ESPN date format to YYYY-MM-DD (handle timezone)
                 dt_str = game_info['dtTm']
-                # ESPN format is typically like "2025-10-30T00:00:00Z"
+                # ESPN format is typically like "2025-10-30T00:00:00Z" (UTC)
                 if 'T' in dt_str:
-                    return dt_str.split('T')[0]
+                    from datetime import datetime
+                    try:
+                        # Parse UTC time and convert to local date
+                        dt_utc = datetime.fromisoformat(dt_str.replace('Z', '+00:00'))
+                        # ESPN games are typically in EST/EDT, so convert for accuracy
+                        # But for simplicity, just use the date part (ESPN stores midnight UTC = previous day local)
+                        # If time is early morning UTC (0-6), it's likely previous day local
+                        if dt_utc.hour < 6:
+                            from datetime import timedelta
+                            local_date = (dt_utc - timedelta(days=1)).date()
+                            return local_date.strftime('%Y-%m-%d')
+                        return dt_str.split('T')[0]
+                    except:
+                        return dt_str.split('T')[0]
     
     return None
 

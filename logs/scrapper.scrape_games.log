@@ -1,0 +1,344 @@
+2025-11-03 14:06:24,924 - scrapper.scrape_games - INFO - No existing games found for 2025-10-21, attempting to find games to scrape
+2025-11-03 14:06:24,939 - scrapper.scrape_games - INFO - Found 4 teams from linestar data: ['LAL', 'OKC', 'HOU', 'GSW']
+2025-11-03 14:06:26,106 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-21
+2025-11-03 14:06:26,867 - scrapper.scrape_games - INFO - Found 1 games for HOU, 1 match date 2025-10-21
+2025-11-03 14:06:27,195 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-21...
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Scoreboard found 2 potential games for 2025-10-21
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Added game 401809243 from scoreboard (will verify date after scraping)
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Added game 401809244 from scoreboard (will verify date after scraping)
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Found 2 total games for 2025-10-21 (existing: 0, new: 2)
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Final: 2 games for 2025-10-21
+2025-11-03 14:06:27,530 - scrapper.scrape_games - INFO - Scraping game 401809244 for 2025-10-21 (missing files)
+2025-11-03 14:06:28,386 - scrapper.scrape_games - WARNING - Scraped game 401809244 but files not found after scraping
+2025-11-03 14:06:28,386 - scrapper.scrape_games - INFO - Scraping game 401809243 for 2025-10-21 (missing files)
+2025-11-03 14:06:28,960 - scrapper.scrape_games - WARNING - Scraped game 401809243 but files not found after scraping
+2025-11-03 14:06:28,960 - scrapper.scrape_games - WARNING - No valid game features found for 2025-10-21 (checked 2 games)
+2025-11-03 14:06:39,020 - scrapper.scrape_games - INFO - Found 1 existing games for 2025-10-21: ['401809243']
+2025-11-03 14:06:39,025 - scrapper.scrape_games - INFO - Found 4 teams from linestar data: ['LAL', 'OKC', 'HOU', 'GSW']
+2025-11-03 14:06:39,659 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-21
+2025-11-03 14:06:39,978 - scrapper.scrape_games - INFO - Found 1 games for HOU, 1 match date 2025-10-21
+2025-11-03 14:06:40,686 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-21...
+2025-11-03 14:06:40,831 - scrapper.scrape_games - INFO - Scoreboard found 2 potential games for 2025-10-21
+2025-11-03 14:06:40,833 - scrapper.scrape_games - INFO - Added game 401809243 from scoreboard (verified date: 2025-10-21)
+2025-11-03 14:06:40,834 - scrapper.scrape_games - INFO - Only found 1 game for 4 teams, checking for additional games...
+2025-11-03 14:06:42,642 - scrapper.scrape_games - INFO - Found 1 total games for 2025-10-21 (existing: 1, new: 0)
+2025-11-03 14:06:42,642 - scrapper.scrape_games - WARNING - Only found 1 game for 4 teams on 2025-10-21. Checking all scraped games...
+2025-11-03 14:06:42,644 - scrapper.scrape_games - INFO - Final: 1 games for 2025-10-21
+2025-11-03 14:06:42,709 - scrapper.scrape_games - INFO - Processed 1 games for 2025-10-21: ['401809243']
+2025-11-03 14:06:42,728 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-21
+2025-11-03 14:06:52,710 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:07:14,376 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:07:24,548 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:09:30,831 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:09:40,288 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:09:46,724 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:09:53,170 - scrapper.scrape_games - INFO - Found 2 existing games for 2025-10-21: ['401809244', '401809243']
+2025-11-03 14:09:53,177 - scrapper.scrape_games - INFO - Found 4 teams from linestar data: ['LAL', 'OKC', 'HOU', 'GSW']
+2025-11-03 14:09:54,037 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-21
+2025-11-03 14:09:54,353 - scrapper.scrape_games - INFO - Found 1 games for HOU, 1 match date 2025-10-21
+2025-11-03 14:09:54,695 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-21...
+2025-11-03 14:09:54,832 - scrapper.scrape_games - INFO - Scoreboard found 2 potential games for 2025-10-21
+2025-11-03 14:09:54,834 - scrapper.scrape_games - INFO - Added game 401809243 from scoreboard (verified date: 2025-10-21)
+2025-11-03 14:09:54,836 - scrapper.scrape_games - INFO - Added game 401809244 from scoreboard (verified date: 2025-10-21)
+2025-11-03 14:09:54,836 - scrapper.scrape_games - INFO - Found 2 total games for 2025-10-21 (existing: 2, new: 0)
+2025-11-03 14:09:54,836 - scrapper.scrape_games - INFO - Final: 2 games for 2025-10-21
+2025-11-03 14:10:00,691 - scrapper.scrape_games - INFO - Found 2 existing games for 2025-10-21: ['401809244', '401809243']
+2025-11-03 14:10:00,696 - scrapper.scrape_games - INFO - Found 4 teams from linestar data: ['LAL', 'OKC', 'HOU', 'GSW']
+2025-11-03 14:10:01,534 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-21
+2025-11-03 14:10:01,900 - scrapper.scrape_games - INFO - Found 1 games for HOU, 1 match date 2025-10-21
+2025-11-03 14:10:02,240 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-21...
+2025-11-03 14:10:02,379 - scrapper.scrape_games - INFO - Scoreboard found 2 potential games for 2025-10-21
+2025-11-03 14:10:02,380 - scrapper.scrape_games - INFO - Added game 401809243 from scoreboard (verified date: 2025-10-21)
+2025-11-03 14:10:02,382 - scrapper.scrape_games - INFO - Added game 401809244 from scoreboard (verified date: 2025-10-21)
+2025-11-03 14:10:02,382 - scrapper.scrape_games - INFO - Found 2 total games for 2025-10-21 (existing: 2, new: 0)
+2025-11-03 14:10:02,382 - scrapper.scrape_games - INFO - Final: 2 games for 2025-10-21
+2025-11-03 14:10:02,514 - scrapper.scrape_games - INFO - Processed 2 games for 2025-10-21: ['401809244', '401809243']
+2025-11-03 14:10:02,539 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-21
+2025-11-03 14:10:34,090 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:10:42,834 - scrapper.scrape_games - INFO - Found 12 existing games for 2025-10-22: ['401809940', '401809939', '401809933', '401809936', '401809937', '401809941', '401809938', '401809235', '401809942', '401809934', '401809234', '401809935']
+2025-11-03 14:10:42,841 - scrapper.scrape_games - INFO - Found 24 teams from linestar data: ['MIL', 'SAS', 'DET', 'ATL', 'DAL', 'PHX', 'CHA', 'MEM', 'CLE', 'CHI', 'LAC', 'MIN', 'SAC', 'PHI', 'NOP', 'BOS', 'MIA', 'NYK', 'POR', 'TOR', 'ORL', 'WAS', 'BKN', 'UTA']
+2025-11-03 14:10:45,323 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-10-22
+2025-11-03 14:10:47,391 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-10-22
+2025-11-03 14:10:48,715 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-22
+2025-11-03 14:10:51,196 - scrapper.scrape_games - INFO - Found 1 games for PHI, 1 match date 2025-10-22
+2025-11-03 14:10:51,680 - scrapper.scrape_games - INFO - Found 1 games for BOS, 1 match date 2025-10-22
+2025-11-03 14:10:52,303 - scrapper.scrape_games - INFO - Found 1 games for MIA, 1 match date 2025-10-22
+2025-11-03 14:10:52,699 - scrapper.scrape_games - INFO - Found 1 games for NYK, 1 match date 2025-10-22
+2025-11-03 14:10:53,630 - scrapper.scrape_games - INFO - Found 1 games for TOR, 1 match date 2025-10-22
+2025-11-03 14:10:54,154 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-22
+2025-11-03 14:10:55,325 - scrapper.scrape_games - INFO - Found 1 games for BKN, 1 match date 2025-10-22
+2025-11-03 14:10:55,872 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-22...
+2025-11-03 14:10:56,016 - scrapper.scrape_games - INFO - Scoreboard found 12 potential games for 2025-10-22
+2025-11-03 14:10:56,017 - scrapper.scrape_games - INFO - Added game 401809234 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,019 - scrapper.scrape_games - INFO - Added game 401809933 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,020 - scrapper.scrape_games - INFO - Added game 401809934 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,022 - scrapper.scrape_games - INFO - Added game 401809935 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,023 - scrapper.scrape_games - INFO - Added game 401809936 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,024 - scrapper.scrape_games - INFO - Added game 401809937 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,026 - scrapper.scrape_games - INFO - Added game 401809938 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,027 - scrapper.scrape_games - INFO - Added game 401809939 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,029 - scrapper.scrape_games - INFO - Added game 401809940 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,030 - scrapper.scrape_games - INFO - Added game 401809235 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,032 - scrapper.scrape_games - INFO - Added game 401809941 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,033 - scrapper.scrape_games - INFO - Added game 401809942 from scoreboard (verified date: 2025-10-22)
+2025-11-03 14:10:56,033 - scrapper.scrape_games - INFO - Found 12 total games for 2025-10-22 (existing: 12, new: 0)
+2025-11-03 14:10:56,033 - scrapper.scrape_games - INFO - Final: 12 games for 2025-10-22
+2025-11-03 14:10:56,739 - scrapper.scrape_games - INFO - Processed 12 games for 2025-10-22: ['401809935', '401809235', '401809942', '401809938', '401809939', '401809936', '401809934', '401809940', '401809234', '401809937', '401809933', '401809941']
+2025-11-03 14:10:56,823 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-22
+2025-11-03 14:11:01,427 - scrapper.scrape_games - INFO - Found 2 existing games for 2025-10-23: ['401809237', '401809236']
+2025-11-03 14:11:01,433 - scrapper.scrape_games - INFO - Found 4 teams from linestar data: ['DEN', 'OKC', 'GSW', 'IND']
+2025-11-03 14:11:02,209 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-23
+2025-11-03 14:11:03,029 - scrapper.scrape_games - INFO - Found 1 games for IND, 1 match date 2025-10-23
+2025-11-03 14:11:03,029 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-23...
+2025-11-03 14:11:03,312 - scrapper.scrape_games - INFO - Scoreboard found 2 potential games for 2025-10-23
+2025-11-03 14:11:03,314 - scrapper.scrape_games - INFO - Added game 401809236 from scoreboard (verified date: 2025-10-23)
+2025-11-03 14:11:03,315 - scrapper.scrape_games - INFO - Added game 401809237 from scoreboard (verified date: 2025-10-23)
+2025-11-03 14:11:03,315 - scrapper.scrape_games - INFO - Found 2 total games for 2025-10-23 (existing: 2, new: 0)
+2025-11-03 14:11:03,315 - scrapper.scrape_games - INFO - Final: 2 games for 2025-10-23
+2025-11-03 14:11:03,454 - scrapper.scrape_games - INFO - Processed 2 games for 2025-10-23: ['401809236', '401809237']
+2025-11-03 14:11:03,474 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-23
+2025-11-03 14:11:10,930 - scrapper.scrape_games - INFO - Found 5 existing games for 2025-10-25: ['401809958', '401809957', '401809956', '401809959', '401809955']
+2025-11-03 14:11:10,936 - scrapper.scrape_games - INFO - Found 10 teams from linestar data: ['DEN', 'OKC', 'ATL', 'MEM', 'PHX', 'CHA', 'PHI', 'CHI', 'IND', 'ORL']
+2025-11-03 14:11:11,621 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-25
+2025-11-03 14:11:12,161 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-10-25
+2025-11-03 14:11:12,481 - scrapper.scrape_games - INFO - Found 1 games for MEM, 1 match date 2025-10-25
+2025-11-03 14:11:12,990 - scrapper.scrape_games - INFO - Found 1 games for PHX, 1 match date 2025-10-25
+2025-11-03 14:11:13,324 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-10-25
+2025-11-03 14:11:13,645 - scrapper.scrape_games - INFO - Found 1 games for PHI, 1 match date 2025-10-25
+2025-11-03 14:11:14,212 - scrapper.scrape_games - INFO - Found 1 games for CHI, 1 match date 2025-10-25
+2025-11-03 14:11:14,874 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-25
+2025-11-03 14:11:14,874 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-25...
+2025-11-03 14:11:15,103 - scrapper.scrape_games - INFO - Scoreboard found 5 potential games for 2025-10-25
+2025-11-03 14:11:15,105 - scrapper.scrape_games - INFO - Added game 401809955 from scoreboard (verified date: 2025-10-25)
+2025-11-03 14:11:15,106 - scrapper.scrape_games - INFO - Added game 401809956 from scoreboard (verified date: 2025-10-25)
+2025-11-03 14:11:15,107 - scrapper.scrape_games - INFO - Added game 401809957 from scoreboard (verified date: 2025-10-25)
+2025-11-03 14:11:15,108 - scrapper.scrape_games - INFO - Added game 401809958 from scoreboard (verified date: 2025-10-25)
+2025-11-03 14:11:15,110 - scrapper.scrape_games - INFO - Added game 401809959 from scoreboard (verified date: 2025-10-25)
+2025-11-03 14:11:15,110 - scrapper.scrape_games - INFO - Found 7 total games for 2025-10-25 (existing: 5, new: 2)
+2025-11-03 14:11:15,110 - scrapper.scrape_games - INFO - Final: 7 games for 2025-10-25
+2025-11-03 14:11:15,173 - scrapper.scrape_games - INFO - Scraping game 401809948 for 2025-10-25 (missing files)
+2025-11-03 14:11:15,849 - scrapper.scrape_games - WARNING - Scraped game 401809948 but date mismatch (got 2025-10-24, expected 2025-10-25)
+2025-11-03 14:11:15,960 - scrapper.scrape_games - INFO - Scraping game 401809954 for 2025-10-25 (missing files)
+2025-11-03 14:11:16,596 - scrapper.scrape_games - WARNING - Scraped game 401809954 but date mismatch (got 2025-10-24, expected 2025-10-25)
+2025-11-03 14:11:16,717 - scrapper.scrape_games - INFO - Processed 5 games for 2025-10-25: ['401809959', '401809955', '401809956', '401809957', '401809958']
+2025-11-03 14:11:16,758 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-25
+2025-11-03 14:11:27,624 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-22
+2025-11-03 14:11:37,813 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-25
+2025-11-03 14:11:41,613 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:11:48,854 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-22
+2025-11-03 14:11:53,431 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-25
+2025-11-03 14:12:00,062 - scrapper.scrape_games - INFO - Found 5 existing games for 2025-10-28: ['401809978', '401809981', '401809980', '401809979', '401809982']
+2025-11-03 14:12:00,069 - scrapper.scrape_games - INFO - Found 6 teams from linestar data: ['MIL', 'OKC', 'SAC', 'GSW', 'NYK', 'LAC']
+2025-11-03 14:12:01,242 - scrapper.scrape_games - INFO - Found 1 games for OKC, 1 match date 2025-10-28
+2025-11-03 14:12:02,184 - scrapper.scrape_games - INFO - Found 1 games for GSW, 1 match date 2025-10-28
+2025-11-03 14:12:03,058 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-28...
+2025-11-03 14:12:03,194 - scrapper.scrape_games - INFO - Scoreboard found 5 potential games for 2025-10-28
+2025-11-03 14:12:03,196 - scrapper.scrape_games - INFO - Added game 401809978 from scoreboard (verified date: 2025-10-28)
+2025-11-03 14:12:03,197 - scrapper.scrape_games - INFO - Added game 401809979 from scoreboard (verified date: 2025-10-28)
+2025-11-03 14:12:03,199 - scrapper.scrape_games - INFO - Added game 401809980 from scoreboard (verified date: 2025-10-28)
+2025-11-03 14:12:03,200 - scrapper.scrape_games - INFO - Added game 401809981 from scoreboard (verified date: 2025-10-28)
+2025-11-03 14:12:03,201 - scrapper.scrape_games - INFO - Added game 401809982 from scoreboard (verified date: 2025-10-28)
+2025-11-03 14:12:03,201 - scrapper.scrape_games - INFO - Found 7 total games for 2025-10-28 (existing: 5, new: 2)
+2025-11-03 14:12:03,202 - scrapper.scrape_games - INFO - Final: 7 games for 2025-10-28
+2025-11-03 14:12:03,407 - scrapper.scrape_games - INFO - Scraping game 401809976 for 2025-10-28 (missing files)
+2025-11-03 14:12:04,006 - scrapper.scrape_games - WARNING - Scraped game 401809976 but date mismatch (got 2025-10-27, expected 2025-10-28)
+2025-11-03 14:12:04,007 - scrapper.scrape_games - INFO - Scraping game 401809974 for 2025-10-28 (missing files)
+2025-11-03 14:12:04,562 - scrapper.scrape_games - WARNING - Scraped game 401809974 but date mismatch (got 2025-10-27, expected 2025-10-28)
+2025-11-03 14:12:04,626 - scrapper.scrape_games - INFO - Processed 5 games for 2025-10-28: ['401809980', '401809979', '401809981', '401809982', '401809978']
+2025-11-03 14:12:04,660 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-28
+2025-11-03 14:12:17,695 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-22
+2025-11-03 14:12:28,120 - scrapper.scrape_games - INFO - Found 4 existing games for 2025-10-30: ['401809996', '401809993', '401809994', '401809995']
+2025-11-03 14:12:28,126 - scrapper.scrape_games - INFO - Found 8 teams from linestar data: ['MIL', 'SAS', 'OKC', 'CHA', 'GSW', 'ORL', 'MIA', 'WAS']
+2025-11-03 14:12:29,731 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-10-30
+2025-11-03 14:12:30,862 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-30
+2025-11-03 14:12:31,509 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-30...
+2025-11-03 14:12:31,649 - scrapper.scrape_games - INFO - Scoreboard found 4 potential games for 2025-10-30
+2025-11-03 14:12:31,651 - scrapper.scrape_games - INFO - Added game 401809993 from scoreboard (verified date: 2025-10-30)
+2025-11-03 14:12:31,652 - scrapper.scrape_games - INFO - Added game 401809994 from scoreboard (verified date: 2025-10-30)
+2025-11-03 14:12:31,653 - scrapper.scrape_games - INFO - Added game 401809995 from scoreboard (verified date: 2025-10-30)
+2025-11-03 14:12:31,654 - scrapper.scrape_games - INFO - Added game 401809996 from scoreboard (verified date: 2025-10-30)
+2025-11-03 14:12:31,655 - scrapper.scrape_games - INFO - Found 4 total games for 2025-10-30 (existing: 4, new: 0)
+2025-11-03 14:12:31,655 - scrapper.scrape_games - INFO - Final: 4 games for 2025-10-30
+2025-11-03 14:12:31,856 - scrapper.scrape_games - INFO - Processed 4 games for 2025-10-30: ['401809993', '401809995', '401809996', '401809994']
+2025-11-03 14:12:31,888 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-30
+2025-11-03 14:15:07,220 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:15:16,260 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:15:27,338 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-22
+2025-11-03 14:15:36,567 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:15:54,813 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:15:57,088 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:16:08,564 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:16:25,596 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:16:32,647 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:20:15,739 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-21
+2025-11-03 14:20:17,053 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-22
+2025-11-03 14:20:20,232 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-23
+2025-11-03 14:20:28,373 - scrapper.scrape_games - INFO - Found 12 existing games for 2025-10-24: ['401809945', '401809952', '401809944', '401809953', '401809950', '401809947', '401809948', '401809951', '401809954', '401809949', '401809946', '401809943']
+2025-11-03 14:20:28,380 - scrapper.scrape_games - INFO - Found 14 teams from linestar data: ['SAS', 'DET', 'DAL', 'ATL', 'HOU', 'NOP', 'CLE', 'MEM', 'MIA', 'NYK', 'BOS', 'ORL', 'BKN', 'WAS']
+2025-11-03 14:20:30,814 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-10-24
+2025-11-03 14:20:31,998 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-24
+2025-11-03 14:20:34,042 - scrapper.scrape_games - INFO - Found 1 games for NYK, 1 match date 2025-10-24
+2025-11-03 14:20:34,360 - scrapper.scrape_games - INFO - Found 1 games for BOS, 1 match date 2025-10-24
+2025-11-03 14:20:34,953 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-24
+2025-11-03 14:20:35,322 - scrapper.scrape_games - INFO - Found 1 games for BKN, 1 match date 2025-10-24
+2025-11-03 14:20:35,974 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-24...
+2025-11-03 14:20:36,113 - scrapper.scrape_games - INFO - Scoreboard found 12 potential games for 2025-10-24
+2025-11-03 14:20:36,114 - scrapper.scrape_games - INFO - Added game 401809946 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,116 - scrapper.scrape_games - INFO - Added game 401809943 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,117 - scrapper.scrape_games - INFO - Added game 401809944 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,119 - scrapper.scrape_games - INFO - Added game 401809945 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,120 - scrapper.scrape_games - INFO - Added game 401809947 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,121 - scrapper.scrape_games - INFO - Added game 401809948 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,123 - scrapper.scrape_games - INFO - Added game 401809949 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,124 - scrapper.scrape_games - INFO - Added game 401809950 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,125 - scrapper.scrape_games - INFO - Added game 401809951 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,126 - scrapper.scrape_games - INFO - Added game 401809952 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,128 - scrapper.scrape_games - INFO - Added game 401809953 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,130 - scrapper.scrape_games - INFO - Added game 401809954 from scoreboard (verified date: 2025-10-24)
+2025-11-03 14:20:36,130 - scrapper.scrape_games - INFO - Found 12 total games for 2025-10-24 (existing: 12, new: 0)
+2025-11-03 14:20:36,130 - scrapper.scrape_games - INFO - Final: 12 games for 2025-10-24
+2025-11-03 14:20:36,746 - scrapper.scrape_games - INFO - Processed 12 games for 2025-10-24: ['401809944', '401809947', '401809952', '401809949', '401809948', '401809954', '401809943', '401809953', '401809945', '401809950', '401809946', '401809951']
+2025-11-03 14:20:36,817 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-24
+2025-11-03 14:20:40,879 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-25
+2025-11-03 14:20:50,067 - scrapper.scrape_games - INFO - Found 8 existing games for 2025-10-26: ['401809965', '401809960', '401809961', '401809962', '401809967', '401809968', '401809963', '401809966']
+2025-11-03 14:20:50,073 - scrapper.scrape_games - INFO - Found 14 teams from linestar data: ['LAL', 'MIL', 'DAL', 'MIN', 'CLE', 'CHA', 'SAC', 'LAC', 'MIA', 'NYK', 'IND', 'TOR', 'POR', 'WAS']
+2025-11-03 14:20:51,294 - scrapper.scrape_games - INFO - Found 1 games for MIL, 1 match date 2025-10-26
+2025-11-03 14:20:51,818 - scrapper.scrape_games - INFO - Found 1 games for DAL, 1 match date 2025-10-26
+2025-11-03 14:20:52,571 - scrapper.scrape_games - INFO - Found 1 games for MIN, 1 match date 2025-10-26
+2025-11-03 14:20:52,903 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-26
+2025-11-03 14:20:53,253 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-10-26
+2025-11-03 14:20:55,138 - scrapper.scrape_games - INFO - Found 1 games for MIA, 1 match date 2025-10-26
+2025-11-03 14:20:55,469 - scrapper.scrape_games - INFO - Found 1 games for NYK, 1 match date 2025-10-26
+2025-11-03 14:20:55,803 - scrapper.scrape_games - INFO - Found 2 games for IND, 2 match date 2025-10-26
+2025-11-03 14:20:56,444 - scrapper.scrape_games - INFO - Found 1 games for TOR, 1 match date 2025-10-26
+2025-11-03 14:20:57,265 - scrapper.scrape_games - INFO - Found 1 games for WAS, 1 match date 2025-10-26
+2025-11-03 14:20:57,265 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-26...
+2025-11-03 14:20:57,602 - scrapper.scrape_games - INFO - Scoreboard found 9 potential games for 2025-10-26
+2025-11-03 14:20:57,603 - scrapper.scrape_games - INFO - Added game 401809960 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,605 - scrapper.scrape_games - INFO - Added game 401809961 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,606 - scrapper.scrape_games - INFO - Added game 401809962 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,608 - scrapper.scrape_games - INFO - Added game 401809963 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,609 - scrapper.scrape_games - INFO - Added game 401809965 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,610 - scrapper.scrape_games - INFO - Added game 401809966 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,612 - scrapper.scrape_games - INFO - Added game 401809967 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,613 - scrapper.scrape_games - INFO - Added game 401809968 from scoreboard (verified date: 2025-10-26)
+2025-11-03 14:20:57,614 - scrapper.scrape_games - INFO - Found 10 total games for 2025-10-26 (existing: 8, new: 2)
+2025-11-03 14:20:57,614 - scrapper.scrape_games - INFO - Final: 10 games for 2025-10-26
+2025-11-03 14:20:58,087 - scrapper.scrape_games - INFO - Processed 8 games for 2025-10-26: ['401809962', '401809967', '401809960', '401809965', '401809968', '401809966', '401809961', '401809963']
+2025-11-03 14:20:58,134 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-26
+2025-11-03 14:21:08,954 - scrapper.scrape_games - INFO - Found 11 existing games for 2025-10-27: ['401809972', '401809977', '401809973', '401809976', '401809245', '401809246', '401809975', '401809970', '401809969', '401809974', '401809971']
+2025-11-03 14:21:08,960 - scrapper.scrape_games - INFO - Found 18 teams from linestar data: ['DEN', 'SAS', 'OKC', 'DAL', 'DET', 'NOP', 'HOU', 'CLE', 'PHI', 'ATL', 'MIN', 'PHX', 'CHI', 'BOS', 'ORL', 'TOR', 'BKN', 'UTA']
+2025-11-03 14:21:11,166 - scrapper.scrape_games - INFO - Found 1 games for DET, 1 match date 2025-10-27
+2025-11-03 14:21:12,050 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-27
+2025-11-03 14:21:12,541 - scrapper.scrape_games - INFO - Found 1 games for PHI, 1 match date 2025-10-27
+2025-11-03 14:21:15,914 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-27
+2025-11-03 14:21:17,440 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-27...
+2025-11-03 14:21:17,588 - scrapper.scrape_games - INFO - Scoreboard found 11 potential games for 2025-10-27
+2025-11-03 14:21:17,590 - scrapper.scrape_games - INFO - Added game 401809245 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,591 - scrapper.scrape_games - INFO - Added game 401809969 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,593 - scrapper.scrape_games - INFO - Added game 401809970 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,594 - scrapper.scrape_games - INFO - Added game 401809971 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,595 - scrapper.scrape_games - INFO - Added game 401809972 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,596 - scrapper.scrape_games - INFO - Added game 401809973 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,598 - scrapper.scrape_games - INFO - Added game 401809974 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,599 - scrapper.scrape_games - INFO - Added game 401809975 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,601 - scrapper.scrape_games - INFO - Added game 401809246 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,602 - scrapper.scrape_games - INFO - Added game 401809976 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,604 - scrapper.scrape_games - INFO - Added game 401809977 from scoreboard (verified date: 2025-10-27)
+2025-11-03 14:21:17,604 - scrapper.scrape_games - INFO - Found 11 total games for 2025-10-27 (existing: 11, new: 0)
+2025-11-03 14:21:17,604 - scrapper.scrape_games - INFO - Final: 11 games for 2025-10-27
+2025-11-03 14:21:18,190 - scrapper.scrape_games - INFO - Processed 11 games for 2025-10-27: ['401809976', '401809245', '401809973', '401809977', '401809971', '401809972', '401809975', '401809969', '401809974', '401809246', '401809970']
+2025-11-03 14:21:18,261 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-27
+2025-11-03 14:21:25,429 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-28
+2025-11-03 14:21:34,838 - scrapper.scrape_games - INFO - Found 10 existing games for 2025-10-29: ['401809984', '401809985', '401809992', '401809991', '401809989', '401809986', '401809983', '401809990', '401809987', '401809988']
+2025-11-03 14:21:34,844 - scrapper.scrape_games - INFO - Found 14 teams from linestar data: ['DEN', 'DAL', 'DET', 'NOP', 'CLE', 'ATL', 'SAC', 'CHI', 'POR', 'ORL', 'IND', 'BOS', 'UTA', 'BKN']
+2025-11-03 14:21:36,034 - scrapper.scrape_games - INFO - Found 1 games for DET, 1 match date 2025-10-29
+2025-11-03 14:21:36,520 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-29
+2025-11-03 14:21:36,850 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-10-29
+2025-11-03 14:21:37,192 - scrapper.scrape_games - INFO - Found 1 games for SAC, 1 match date 2025-10-29
+2025-11-03 14:21:38,495 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-10-29
+2025-11-03 14:21:39,456 - scrapper.scrape_games - INFO - Found 1 games for BOS, 1 match date 2025-10-29
+2025-11-03 14:21:40,132 - scrapper.scrape_games - INFO - Found 1 games for BKN, 1 match date 2025-10-29
+2025-11-03 14:21:40,132 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-29...
+2025-11-03 14:21:40,283 - scrapper.scrape_games - INFO - Scoreboard found 10 potential games for 2025-10-29
+2025-11-03 14:21:40,285 - scrapper.scrape_games - INFO - Added game 401809986 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,286 - scrapper.scrape_games - INFO - Added game 401809983 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,288 - scrapper.scrape_games - INFO - Added game 401809984 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,290 - scrapper.scrape_games - INFO - Added game 401809985 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,292 - scrapper.scrape_games - INFO - Added game 401809987 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,293 - scrapper.scrape_games - INFO - Added game 401809988 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,295 - scrapper.scrape_games - INFO - Added game 401809989 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,296 - scrapper.scrape_games - INFO - Added game 401809990 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,298 - scrapper.scrape_games - INFO - Added game 401809991 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,300 - scrapper.scrape_games - INFO - Added game 401809992 from scoreboard (verified date: 2025-10-29)
+2025-11-03 14:21:40,300 - scrapper.scrape_games - INFO - Found 11 total games for 2025-10-29 (existing: 10, new: 1)
+2025-11-03 14:21:40,300 - scrapper.scrape_games - INFO - Final: 11 games for 2025-10-29
+2025-11-03 14:21:40,881 - scrapper.scrape_games - INFO - Processed 10 games for 2025-10-29: ['401809990', '401809983', '401809989', '401809985', '401809988', '401809991', '401809984', '401809992', '401809986', '401809987']
+2025-11-03 14:21:40,937 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-29
+2025-11-03 14:21:49,110 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-10-30
+2025-11-03 14:21:59,073 - scrapper.scrape_games - INFO - Found 8 existing games for 2025-10-31: ['401809505', '401809504', '401809508', '401809502', '401809507', '401809503', '401809506', '401809509']
+2025-11-03 14:21:59,079 - scrapper.scrape_games - INFO - Found 16 teams from linestar data: ['DEN', 'LAL', 'PHI', 'MEM', 'PHX', 'IND', 'NOP', 'ATL', 'CHI', 'CLE', 'LAC', 'BOS', 'NYK', 'POR', 'TOR', 'UTA']
+2025-11-03 14:22:00,084 - scrapper.scrape_games - INFO - Found 1 games for PHI, 1 match date 2025-10-31
+2025-11-03 14:22:01,281 - scrapper.scrape_games - INFO - Found 1 games for IND, 1 match date 2025-10-31
+2025-11-03 14:22:01,804 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-10-31
+2025-11-03 14:22:02,479 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-10-31
+2025-11-03 14:22:03,185 - scrapper.scrape_games - INFO - Found 1 games for BOS, 1 match date 2025-10-31
+2025-11-03 14:22:04,683 - scrapper.scrape_games - INFO - Found 1 games for TOR, 1 match date 2025-10-31
+2025-11-03 14:22:05,011 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-10-31...
+2025-11-03 14:22:05,154 - scrapper.scrape_games - INFO - Scoreboard found 8 potential games for 2025-10-31
+2025-11-03 14:22:05,156 - scrapper.scrape_games - INFO - Added game 401809502 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,157 - scrapper.scrape_games - INFO - Added game 401809503 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,159 - scrapper.scrape_games - INFO - Added game 401809504 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,160 - scrapper.scrape_games - INFO - Added game 401809505 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,162 - scrapper.scrape_games - INFO - Added game 401809506 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,163 - scrapper.scrape_games - INFO - Added game 401809507 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,164 - scrapper.scrape_games - INFO - Added game 401809508 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,166 - scrapper.scrape_games - INFO - Added game 401809509 from scoreboard (verified date: 2025-10-31)
+2025-11-03 14:22:05,166 - scrapper.scrape_games - INFO - Found 8 total games for 2025-10-31 (existing: 8, new: 0)
+2025-11-03 14:22:05,166 - scrapper.scrape_games - INFO - Final: 8 games for 2025-10-31
+2025-11-03 14:22:05,613 - scrapper.scrape_games - INFO - Processed 8 games for 2025-10-31: ['401809504', '401809507', '401809506', '401809503', '401809505', '401809509', '401809508', '401809502']
+2025-11-03 14:22:05,659 - scrapper.scrape_games - INFO - Saved PBP features for 2025-10-31
+2025-11-03 14:22:18,600 - scrapper.scrape_games - INFO - Found 6 existing games for 2025-11-01: ['401809999', '401810002', '401809998', '401809997', '401810001', '401810000']
+2025-11-03 14:22:18,605 - scrapper.scrape_games - INFO - Found 8 teams from linestar data: ['CHA', 'IND', 'HOU', 'MIN', 'ORL', 'GSW', 'BOS', 'WAS']
+2025-11-03 14:22:18,936 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-11-01
+2025-11-03 14:22:19,363 - scrapper.scrape_games - INFO - Found 1 games for IND, 1 match date 2025-11-01
+2025-11-03 14:22:20,492 - scrapper.scrape_games - INFO - Found 1 games for MIN, 1 match date 2025-11-01
+2025-11-03 14:22:21,000 - scrapper.scrape_games - INFO - Found 1 games for ORL, 1 match date 2025-11-01
+2025-11-03 14:22:21,338 - scrapper.scrape_games - INFO - Found 1 games for GSW, 1 match date 2025-11-01
+2025-11-03 14:22:22,271 - scrapper.scrape_games - INFO - Found 1 games for WAS, 1 match date 2025-11-01
+2025-11-03 14:22:22,272 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-11-01...
+2025-11-03 14:22:22,522 - scrapper.scrape_games - INFO - Scoreboard found 6 potential games for 2025-11-01
+2025-11-03 14:22:22,524 - scrapper.scrape_games - INFO - Added game 401809997 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,525 - scrapper.scrape_games - INFO - Added game 401809998 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,526 - scrapper.scrape_games - INFO - Added game 401809999 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,528 - scrapper.scrape_games - INFO - Added game 401810000 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,529 - scrapper.scrape_games - INFO - Added game 401810001 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,530 - scrapper.scrape_games - INFO - Added game 401810002 from scoreboard (verified date: 2025-11-01)
+2025-11-03 14:22:22,530 - scrapper.scrape_games - INFO - Found 6 total games for 2025-11-01 (existing: 6, new: 0)
+2025-11-03 14:22:22,530 - scrapper.scrape_games - INFO - Final: 6 games for 2025-11-01
+2025-11-03 14:22:22,845 - scrapper.scrape_games - INFO - Processed 6 games for 2025-11-01: ['401809999', '401810002', '401809997', '401810000', '401810001', '401809998']
+2025-11-03 14:22:22,884 - scrapper.scrape_games - INFO - Saved PBP features for 2025-11-01
+2025-11-03 14:22:32,486 - scrapper.scrape_games - INFO - Found 8 existing games for 2025-11-02: ['401810009', '401810006', '401810003', '401810007', '401810008', '401810010', '401810004', '401810005']
+2025-11-03 14:22:32,491 - scrapper.scrape_games - INFO - Found 12 teams from linestar data: ['SAS', 'CHA', 'PHI', 'PHX', 'MEM', 'CLE', 'ATL', 'CHI', 'NYK', 'UTA', 'TOR', 'BKN']
+2025-11-03 14:22:33,434 - scrapper.scrape_games - INFO - Found 1 games for CHA, 1 match date 2025-11-02
+2025-11-03 14:22:34,121 - scrapper.scrape_games - INFO - Found 1 games for PHI, 1 match date 2025-11-02
+2025-11-03 14:22:34,952 - scrapper.scrape_games - INFO - Found 1 games for MEM, 1 match date 2025-11-02
+2025-11-03 14:22:35,277 - scrapper.scrape_games - INFO - Found 1 games for CLE, 1 match date 2025-11-02
+2025-11-03 14:22:35,636 - scrapper.scrape_games - INFO - Found 1 games for ATL, 1 match date 2025-11-02
+2025-11-03 14:22:37,022 - scrapper.scrape_games - INFO - Found 1 games for UTA, 1 match date 2025-11-02
+2025-11-03 14:22:37,442 - scrapper.scrape_games - INFO - Found 1 games for TOR, 1 match date 2025-11-02
+2025-11-03 14:22:37,774 - scrapper.scrape_games - INFO - Found 1 games for BKN, 1 match date 2025-11-02
+2025-11-03 14:22:37,774 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-11-02...
+2025-11-03 14:22:37,932 - scrapper.scrape_games - INFO - Scoreboard found 8 potential games for 2025-11-02
+2025-11-03 14:22:37,934 - scrapper.scrape_games - INFO - Added game 401810003 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,935 - scrapper.scrape_games - INFO - Added game 401810004 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,937 - scrapper.scrape_games - INFO - Added game 401810005 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,938 - scrapper.scrape_games - INFO - Added game 401810006 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,940 - scrapper.scrape_games - INFO - Added game 401810007 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,941 - scrapper.scrape_games - INFO - Added game 401810008 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,943 - scrapper.scrape_games - INFO - Added game 401810009 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,944 - scrapper.scrape_games - INFO - Added game 401810010 from scoreboard (verified date: 2025-11-02)
+2025-11-03 14:22:37,944 - scrapper.scrape_games - INFO - Found 8 total games for 2025-11-02 (existing: 8, new: 0)
+2025-11-03 14:22:37,944 - scrapper.scrape_games - INFO - Final: 8 games for 2025-11-02
+2025-11-03 14:22:38,344 - scrapper.scrape_games - INFO - Processed 8 games for 2025-11-02: ['401810007', '401810010', '401810004', '401810006', '401810003', '401810008', '401810005', '401810009']
+2025-11-03 14:22:38,390 - scrapper.scrape_games - INFO - Saved PBP features for 2025-11-02
