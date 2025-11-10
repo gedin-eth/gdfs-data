@@ -1,0 +1,125 @@
+=== MULTI-OBJECTIVE KNAPSACK PROBLEM FOR DFS LINEUPS ===
+
+Problem Structure:
+- Constraints: Salary cap ($50k), positions (PG/SG/SF/PF/C + 2 UTIL), max 8 players, team limits
+- Multiple Objectives:
+  * Maximize predicted Actual Score (primary)
+  * Maximize Ownership (context-dependent)
+  * Maximize ClutchFP (context-dependent)
+  * Maximize FPM (context-dependent)
+  * Target specific ranges based on game size/Vegas totals
+
+=== APPROACHES FROM RESEARCH ===
+
+1. Weighted Sum Method (Simplest):
+   - Combine objectives into single score: Score = w1*ActualScore + w2*Ownership + w3*ClutchFP + w4*FPM
+   - Weights adjust based on slate context (game size, Vegas totals)
+   - Use CP-SAT (OR-Tools) or PuLP to solve
+   - Pros: Fast, interpretable, easy to tune
+   - Cons: Requires weight tuning, may miss Pareto-optimal solutions
+
+2. Constraint Programming (CP-SAT):
+   - OR-Tools CP-SAT handles hard constraints (salary, positions)
+   - Use soft constraints for objectives (via penalties/rewards)
+   - Add conditional constraints based on game size
+   - Pros: Handles complex constraints well, exact solutions
+   - Cons: Single objective requires aggregation
+
+3. Genetic Algorithms (NSGA-II):
+   - Evolve population of lineups
+   - Find Pareto frontier across multiple objectives
+   - Pros: True multi-objective, diverse solutions
+   - Cons: Slower, more complex, harder to tune
+
+4. Greedy with Randomization:
+   - Sort players by composite score
+   - Build lineups greedily with randomization
+   - Generate multiple lineups with different random seeds
+   - Pros: Very fast, simple, good for mass entry
+   - Cons: Suboptimal, no guarantee of feasibility
+
+=== RECOMMENDED APPROACH ===
+
+Hybrid: Weighted Sum + CP-SAT with Contextual Weights
+
+Why This Approach:
+- Predictions already available (from CatBoost models)
+- Analysis shows clear target ranges by context (game size, Vegas totals)
+- Need to balance ownership, clutch, efficiency based on context
+- Fast enough for real-time use
+
+Implementation Strategy:
+1. Load predictions and input data
+2. Determine slate context (game count, avg Vegas total)
+3. Calculate composite player scores using context-based weights:
+   - Small slate (2-4 games): High weight on Ownership + ClutchFP
+   - Medium slate (5-7 games): Balanced weights
+   - Large slate (8+ games): High weight on FPM + Actual Score
+4. Use CP-SAT to solve with constraints:
+   - Hard: Salary, positions, player count
+   - Soft: Target ownership ranges, ClutchFP ranges (via penalties/rewards)
+5. Generate multiple lineups with slight weight variations for diversity
+
+=== KEY INSIGHTS FROM ANALYSIS ===
+
+- Game size drives strategy: small = high ownership, large = high efficiency
+- Vegas totals inform expected pace: high totals favor efficiency
+- Rank 1 winners show: 25.8% avg ownership, 3.08 ClutchFP, 1.291 FPM
+- Target ranges exist for each metric by context
+
+=== PRACTICAL CONSIDERATIONS ===
+
+- Use OR-Tools CP-SAT for constraints (fast, handles integer constraints well)
+- Weighted sum keeps it simple, adjust weights by context
+- Generate multiple lineups by varying weights slightly for diversification
+- Validate against analysis ranges (ownership, ClutchFP, FPM) as soft constraints
+
+This balances simplicity, speed, and alignment with analysis findings.
+
+=== CONTEXTUAL WEIGHT STRATEGY ===
+
+Based on Game Size:
+- Small (2-4 games): Ownership 40%, ClutchFP 30%, Actual Score 20%, FPM 10%
+- Medium (5-7 games): Ownership 25%, ClutchFP 25%, Actual Score 30%, FPM 20%
+- Large (8+ games): Ownership 15%, ClutchFP 15%, Actual Score 35%, FPM 35%
+
+Based on Vegas Totals:
+- Medium (225-230): Lower ownership weight, focus efficiency
+- High (230-235): Balanced weights (sweet spot)
+- Very High (>235): Higher ownership weight, efficiency over clutch
+
+Combined Strategy:
+- Calculate game size category (small/medium/large)
+- Calculate Vegas total category (medium/high/very high)
+- Adjust base weights accordingly
+- Example: Small slate + High totals = Ownership 35%, ClutchFP 25%, Actual Score 25%, FPM 15%
+
+=== TARGET RANGES AS SOFT CONSTRAINTS ===
+
+For Rank 1 Style Lineups:
+- Ownership per player: 14-36% (avg 25.8%)
+- Total lineup ownership: 150-250%
+- ClutchFP per player: 1.86-5.21 (avg 3.08)
+- ClutchRatio: 0.041-0.101 (avg 0.070)
+- FPM: 1.15-1.48 (avg 1.291)
+- Usage: 0.735-0.949 (avg 0.840)
+- Actual Score per player: 40-52 (avg 44.5)
+
+Implementation:
+- Add penalty terms for lineups outside target ranges
+- Penalty = weight * abs(actual_value - target_range_center)
+- Allows optimizer to prefer lineups within target ranges while still optimizing score
+
+=== MULTI-LINEUP GENERATION ===
+
+Strategy for Diversity:
+1. Generate base lineup with primary weights
+2. Generate variations with:
+   - Slight weight adjustments (±5-10%)
+   - Different random seeds
+   - Slight target range adjustments
+3. Filter duplicate lineups (same 8 players)
+4. Rank by composite score and select top N
+
+This ensures diverse lineups while maintaining quality and alignment with winning patterns.
+

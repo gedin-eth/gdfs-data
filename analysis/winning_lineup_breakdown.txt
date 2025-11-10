@@ -1,0 +1,102 @@
+=== WINNING LINEUP BREAKDOWN ===
+
+Total lineups analyzed: 42
+- Rank 1: 18 lineups
+- Rank 2: 12 lineups
+- Rank 3: 12 lineups
+
+=== KEY METRICS BY RANK ===
+
+Rank 1 (Winners):
+  Avg Points: 357.1
+  Avg Actual Score per player: 44.5
+  Avg Ownership per player: 25.8%
+  Avg FPM: 1.291
+  Avg Usage: 0.840
+  Avg Minutes: 33.8
+  Avg ClutchFP: 3.08
+  Avg ClutchRatio: 0.070
+  Avg TouchesPerMin: 0.797
+  Avg ThreeRate: 0.435
+  Avg ScoringFrequency: 0.186
+  Avg DominantQuarter: 2.0
+  Avg LateGameEmphasis: 0.221
+  Avg Substitutions: 3.4
+  Avg StarterOrStuffer: 0.49
+
+Rank 2:
+  Avg Points: 362.8
+  Avg Actual Score per player: 44.7
+  Avg Ownership per player: 22.7%
+  Avg FPM: 1.309
+  Avg Usage: 0.869
+  Avg Minutes: 33.3
+  Avg ClutchFP: 2.66
+  Avg ClutchRatio: 0.063
+  Avg TouchesPerMin: 0.795
+  Avg ThreeRate: 0.382
+  Avg ScoringFrequency: 0.189
+  Avg DominantQuarter: 2.1
+  Avg LateGameEmphasis: 0.272
+  Avg Substitutions: 3.3
+  Avg StarterOrStuffer: 0.45
+
+Rank 3:
+  Avg Points: 363.3
+  Avg Actual Score per player: 45.3
+  Avg Ownership per player: 24.9%
+  Avg FPM: 1.345
+  Avg Usage: 0.871
+  Avg Minutes: 32.9
+  Avg ClutchFP: 2.67
+  Avg ClutchRatio: 0.062
+  Avg TouchesPerMin: 0.780
+  Avg ThreeRate: 0.369
+  Avg ScoringFrequency: 0.188
+  Avg DominantQuarter: 2.1
+  Avg LateGameEmphasis: 0.258
+  Avg Substitutions: 2.9
+  Avg StarterOrStuffer: 0.53
+
+=== KEY INSIGHTS ===
+
+1. Rank 1 lineups have HIGHER ownership (25.8% vs 22.7-24.9%) and more clutch production
+   (ClutchFP 3.08 vs 2.66-2.67)
+
+2. Rank 3 lineups have slightly HIGHER per-player scoring (45.3 vs 44.5-44.7) and 
+   efficiency metrics (FPM 1.345 vs 1.291-1.309)
+
+3. All ranks show similar Usage rates (0.84-0.87), Minutes (32.9-33.8), and 
+   TouchesPerMin (~0.78-0.80)
+
+4. Rank 1 lineups have the highest ClutchRatio (0.070), indicating more late-game 
+   production relative to total
+
+5. StarterOrStuffer is around 0.5 across all ranks, indicating a mix of starters 
+   and bench players
+
+CONCLUSION: Winning lineups prioritize higher ownership and clutch performance, while 
+Rank 3 lineups show slightly better per-player efficiency metrics but may lack the 
+clutch factor that separates winners.
+
+=== OPTIMIZER INPUTS (AVAILABLE BEFORE SLATE) ===
+
+Game Size Strategy:
+- Small (2-4 games): High ownership (25-35%), high clutch (ClutchFP >3.0)
+- Medium (5-7 games): Balanced (23-30% ownership, ClutchFP 2.6-3.8)
+- Large (8+ games): Lower ownership (15-21%), high efficiency (FPM >1.35)
+
+Vegas Totals Strategy:
+- Medium (225-230): Lower ownership (20-23%), efficiency focus
+- High (230-235): Balanced (24-25% ownership, ClutchFP 2.9+)
+- Very High (>235): Higher ownership (28-30%), efficiency over clutch
+
+Target Ranges for Rank 1 Style:
+- Ownership per player: 14-36% (avg 25.8%)
+- Total lineup ownership: 150-250%
+- ClutchFP per player: 1.86-5.21 (avg 3.08)
+- ClutchRatio: 0.041-0.101 (avg 0.070)
+- FPM: 1.15-1.48 (avg 1.291)
+- Usage: 0.735-0.949 (avg 0.840)
+- Actual Score per player: 40-52 (avg 44.5)
+

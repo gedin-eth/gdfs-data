@@ -1,0 +1,3524 @@
+{
+  "gameId": "401809960",
+  "gameLeaders": {},
+  "teamStats": {
+    "grphHdrs": {
+      "tabs": [
+        {
+          "stats": [
+            {
+              "key": "fieldGoalPct",
+              "isPctStat": true
+            },
+            {
+              "key": "threePointFieldGoalPct",
+              "isPctStat": true
+            },
+            {
+              "key": "totalTurnovers",
+              "labelOverride": "Turnovers"
+            },
+            {
+              "key": "totalRebounds"
+            }
+          ]
+        }
+      ]
+    },
+    "grphHdrsV4": {
+      "pre": {
+        "tabs": [
+          {
+            "stats": [
+              {
+                "key": "avgPoints",
+                "labelOverride": "Points"
+              },
+              {
+                "key": "avgPointsAgainst"
+              },
+              {
+                "key": "fieldGoalPct",
+                "isPctStat": true
+              },
+              {
+                "key": "avgRebounds",
+                "labelOverride": "Rebounds"
+              },
+              {
+                "key": "avgAssists",
+                "labelOverride": "Assists"
+              },
+              {
+                "key": "avgBlocks",
+                "labelOverride": "Blocks"
+              },
+              {
+                "key": "avgSteals",
+                "labelOverride": "Steals"
+              }
+            ]
+          }
+        ]
+      },
+      "in": {
+        "tabs": [
+          {
+            "stats": [
+              {
+                "key": "fieldGoalPct",
+                "isPctStat": true,
+                "noteKey": "fieldGoalsMade-fieldGoalsAttempted"
+              },
+              {
+                "key": "threePointFieldGoalPct",
+                "isPctStat": true,
+                "noteKey": "threePointFieldGoalsMade-threePointFieldGoalsAttempted"
+              },
+              {
+                "key": "freeThrowPct",
+                "isPctStat": true,
+                "noteKey": "freeThrowsMade-freeThrowsAttempted"
+              },
+              {
+                "key": "totalTurnovers",
+                "labelOverride": "Turnovers"
+              },
+              {
+                "key": "totalRebounds"
+              },
+              {
+                "key": "largestLead"
+              }
+            ]
+          }
+        ]
+      },
+      "post": {
+        "tabs": [
+          {
+            "stats": [
+              {
+                "key": "fieldGoalPct",
+                "isPctStat": true,
+                "noteKey": "fieldGoalsMade-fieldGoalsAttempted"
+              },
+              {
+                "key": "threePointFieldGoalPct",
+                "isPctStat": true,
+                "noteKey": "threePointFieldGoalsMade-threePointFieldGoalsAttempted"
+              },
+              {
+                "key": "freeThrowPct",
+                "isPctStat": true,
+                "noteKey": "freeThrowsMade-freeThrowsAttempted"
+              },
+              {
+                "key": "totalTurnovers",
+                "labelOverride": "Turnovers"
+              },
+              {
+                "key": "totalRebounds"
+              },
+              {
+                "key": "largestLead"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mtchupTblHdrs": {
+      "fieldGoalsMade-fieldGoalsAttempted": "highlight",
+      "fieldGoalPct": "highlight",
+      "threePointFieldGoalsMade-threePointFieldGoalsAttempted": "highlight",
+      "threePointFieldGoalPct": "highlight",
+      "freeThrowsMade-freeThrowsAttempted": "highlight",
+      "freeThrowPct": "highlight",
+      "totalRebounds": "highlight",
+      "offensiveRebounds": "indent",
+      "defensiveRebounds": "indent",
+      "assists": "highlight",
+      "steals": "highlight",
+      "blocks": "highlight",
+      "totalTurnovers": "highlight",
+      "turnoverPoints": "indent",
+      "fastBreakPoints": "highlight",
+      "pointsInPaint": "highlight",
+      "fouls": "highlight",
+      "technicalFouls": "indent",
+      "flagrantFouls": "indent",
+      "largestLead": "highlight"
+    },
+    "tblHdrs": {
+      "avgPoints": "highlight",
+      "avgPointsAgainst": "highlight",
+      "fieldGoalPct": "highlight",
+      "threePointPct": "highlight",
+      "avgRebounds": "highlight",
+      "avgAssists": "highlight",
+      "avgBlocks": "highlight",
+      "avgSteals": "highlight",
+      "streak": "highlight",
+      "lasttengames": "highlight",
+      "Last Ten Games": "highlight",
+      "\u00daltimos 10 Juegos": "highlight"
+    },
+    "lnk": "/nba/matchup/_/gameId/401809960"
+  },
+  "gameInfo": {
+    "attnd": 19016,
+    "broadcasts": [
+      {
+        "type": "1",
+        "market": "Away",
+        "name": "YES",
+        "lang": "en"
+      },
+      {
+        "type": "6",
+        "market": "Away",
+        "name": "NBA League Pass",
+        "lang": "en"
+      },
+      {
+        "type": "1",
+        "market": "Home",
+        "name": "FanDuel SN SW",
+        "lang": "en"
+      }
+    ],
+    "cvrg": "",
+    "oddsAttr": "https://assets.espn.com/i/espnbet/ESPN_Bet_Sportsbook_Attribution_Light.svg",
+    "darkOddsAttr": "https://assets.espn.com/i/espnbet/ESPN_Bet_Sportsbook_Attribution_Dark.svg",
+    "gameState": "post",
+    "dtTmVld": true,
+    "dtTm": "2025-10-26T18:00Z",
+    "refs": [
+      {
+        "dspNm": "Eric Dalen",
+        "pos": "Referee"
+      },
+      {
+        "dspNm": "Michael Smith",
+        "pos": "Referee"
+      },
+      {
+        "dspNm": "Tyler Ford",
+        "pos": "Referee"
+      }
+    ],
+    "venueId": "780",
+    "loc": "Frost Bank Center",
+    "locImg": "https://a.espncdn.com/i/venues/nba/day/780.jpg",
+    "locAddr": {
+      "city": "San Antonio",
+      "state": "TX"
+    },
+    "weatherLink": "https://www.accuweather.com/?partner=espn_gc"
+  },
+  "raw": {
+    "autoUpdate": {
+      "mode": "fastcast"
+    },
+    "baseURL": "https://www.espn.com",
+    "broadcasts": [],
+    "compUID": "s:40~l:46~e:401809960~c:401809960",
+    "gmStrp": {
+      "uid": "s:40~l:46~e:401809960",
+      "gid": "401809960",
+      "dt": "2025-10-26T18:00Z",
+      "isTdy": false,
+      "nm": "basketball",
+      "seasonType": 2,
+      "status": {
+        "desc": "Final",
+        "det": "Final",
+        "id": "3",
+        "state": "post",
+        "statusPrimary": "Final"
+      },
+      "statusState": "post",
+      "tbd": false,
+      "tms": [
+        {
+          "id": "17",
+          "abbrev": "BKN",
+          "displayName": "Brooklyn Nets",
+          "shortDisplayName": "Nets",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+          "teamColor": "000000",
+          "altColor": "ffffff",
+          "uid": "s:40~l:46~t:17",
+          "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+          "recordSummary": "",
+          "standingSummary": "",
+          "location": "Brooklyn",
+          "links": "/nba/team/_/name/bkn/brooklyn-nets",
+          "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+          "records": [
+            {
+              "type": "total",
+              "summary": "0-3",
+              "displayValue": "0-3"
+            },
+            {
+              "type": "road",
+              "summary": "0-2",
+              "displayValue": "0-2"
+            }
+          ],
+          "recordTotal": "0-3",
+          "recordSupplemental": "0-2 Away",
+          "isHome": false,
+          "gmStrpClrV4": "#48494a",
+          "linescores": [
+            {
+              "displayValue": "24"
+            },
+            {
+              "displayValue": "24"
+            },
+            {
+              "displayValue": "33"
+            },
+            {
+              "displayValue": "26"
+            }
+          ],
+          "calculatedLinescores": [
+            {
+              "displayValue": "24"
+            },
+            {
+              "displayValue": "24"
+            },
+            {
+              "displayValue": "33"
+            },
+            {
+              "displayValue": "26"
+            }
+          ],
+          "score": "107",
+          "acsblClr": "#5a5c5d",
+          "ltMdAcsblClr": "#5a5c5d",
+          "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&cquality=80&h=64&w=64"
+        },
+        {
+          "id": "24",
+          "abbrev": "SA",
+          "displayName": "San Antonio Spurs",
+          "shortDisplayName": "Spurs",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "teamColor": "000000",
+          "altColor": "c4ced4",
+          "uid": "s:40~l:46~t:24",
+          "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+          "recordSummary": "",
+          "standingSummary": "",
+          "location": "San Antonio",
+          "links": "/nba/team/_/name/sa/san-antonio-spurs",
+          "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+          "records": [
+            {
+              "type": "total",
+              "summary": "3-0",
+              "displayValue": "3-0"
+            },
+            {
+              "type": "home",
+              "summary": "1-0",
+              "displayValue": "1-0"
+            }
+          ],
+          "recordTotal": "3-0",
+          "recordSupplemental": "1-0 Home",
+          "isHome": true,
+          "gmStrpClrV4": "#c4ced4",
+          "linescores": [
+            {
+              "displayValue": "31"
+            },
+            {
+              "displayValue": "38"
+            },
+            {
+              "displayValue": "19"
+            },
+            {
+              "displayValue": "30"
+            }
+          ],
+          "calculatedLinescores": [
+            {
+              "displayValue": "31"
+            },
+            {
+              "displayValue": "38"
+            },
+            {
+              "displayValue": "19"
+            },
+            {
+              "displayValue": "30"
+            }
+          ],
+          "score": "118",
+          "winner": true,
+          "acsblClr": "#000000",
+          "ltMdAcsblClr": "#000000",
+          "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sa.png&cquality=80&h=64&w=64"
+        }
+      ],
+      "lgId": "46",
+      "config": {
+        "maxPeriods": 4
+      },
+      "hasWinner": true
+    },
+    "gmSwtchrMta": {
+      "firstPillOverride": {
+        "statusState": "post",
+        "date": "2025-10-26T18:00Z",
+        "timeValid": true,
+        "primaryText": "Final",
+        "id": 401809960,
+        "link": "/nba/game/_/gameId/401809960/nets-spurs",
+        "leftSide": {
+          "score": 107,
+          "uid": "s:40~l:46~t:17",
+          "isWinner": false,
+          "homeAway": "away",
+          "hasPossession": false,
+          "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/bkn.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+          "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500-dark/bkn.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+          "logoAlt": "Brooklyn Nets"
+        },
+        "rightSide": {
+          "score": 118,
+          "uid": "s:40~l:46~t:24",
+          "isWinner": true,
+          "homeAway": "home",
+          "hasPossession": false,
+          "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/sa.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+          "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500-dark/sa.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+          "logoAlt": "San Antonio Spurs"
+        },
+        "selectedMatchupCharacter": "@",
+        "ariaLabel": "Brooklyn Nets @ San Antonio Spurs",
+        "isTie": false
+      },
+      "gameSwitcherExpected": true,
+      "topic": "picker-basketball-nba"
+    },
+    "gpLinks": {
+      "links": [
+        {
+          "l": {
+            "h": "/nba/game/_/gameId/401809960/nets-spurs",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/game/_/gameId/401809960/nets-spurs",
+              "e": false,
+              "p": false,
+              "t": "Gamecast",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Gamecast",
+            "w": {
+              "h": "/nba/game/_/gameId/401809960/nets-spurs",
+              "e": false,
+              "p": false,
+              "t": "Gamecast",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "gamecast",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        },
+        {
+          "l": {
+            "h": "/nba/recap/_/gameId/401809960",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/recap/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Recap",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Recap",
+            "w": {
+              "h": "/nba/recap/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Recap",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "recap",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        },
+        {
+          "l": {
+            "h": "/nba/boxscore/_/gameId/401809960",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/boxscore/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Box Score",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Box Score",
+            "w": {
+              "h": "/nba/boxscore/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Box Score",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "box score",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        },
+        {
+          "l": {
+            "h": "/nba/playbyplay/_/gameId/401809960",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/playbyplay/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Play-by-Play",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Play-by-Play",
+            "w": {
+              "h": "/nba/playbyplay/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Play-by-Play",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "play-by-play",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        },
+        {
+          "l": {
+            "h": "/nba/matchup/_/gameId/401809960",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/matchup/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Team Stats",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Team Stats",
+            "w": {
+              "h": "/nba/matchup/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Team Stats",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "team stats",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        },
+        {
+          "l": {
+            "h": "/nba/video/_/gameId/401809960",
+            "e": false,
+            "p": false,
+            "m": {
+              "h": "/nba/video/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Videos",
+              "icon": null,
+              "iconAlt": null
+            },
+            "t": "Videos",
+            "w": {
+              "h": "/nba/video/_/gameId/401809960",
+              "e": false,
+              "p": false,
+              "t": "Videos",
+              "icon": null,
+              "iconAlt": null
+            }
+          },
+          "d": {
+            "data-track-nav_layer": "secondary nav",
+            "data-track-nav_item": "videos",
+            "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+          }
+        }
+      ],
+      "activePage": {
+        "device": "desktop",
+        "league": "nba",
+        "pageType": null,
+        "subPageType": "boxscore"
+      }
+    },
+    "lg": "nba",
+    "lgUid": "s:40~l:46",
+    "maxPeriods": 4,
+    "wllClck": {
+      "first": "2025-10-26T18:12:00Z"
+    },
+    "network": "",
+    "prsdTms": {
+      "home": {
+        "id": "24",
+        "abbrev": "SA",
+        "displayName": "San Antonio Spurs",
+        "shortDisplayName": "Spurs",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "teamColor": "000000",
+        "altColor": "c4ced4",
+        "uid": "s:40~l:46~t:24",
+        "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+        "recordSummary": "",
+        "standingSummary": "",
+        "location": "San Antonio",
+        "links": "/nba/team/_/name/sa/san-antonio-spurs",
+        "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+        "records": [
+          {
+            "type": "total",
+            "summary": "3-0",
+            "displayValue": "3-0"
+          },
+          {
+            "type": "home",
+            "summary": "1-0",
+            "displayValue": "1-0"
+          }
+        ],
+        "recordTotal": "3-0",
+        "recordSupplemental": "1-0 Home",
+        "isHome": true,
+        "gmStrpClrV4": "#c4ced4",
+        "linescores": [
+          {
+            "displayValue": "31"
+          },
+          {
+            "displayValue": "38"
+          },
+          {
+            "displayValue": "19"
+          },
+          {
+            "displayValue": "30"
+          }
+        ],
+        "calculatedLinescores": [
+          {
+            "displayValue": "31"
+          },
+          {
+            "displayValue": "38"
+          },
+          {
+            "displayValue": "19"
+          },
+          {
+            "displayValue": "30"
+          }
+        ],
+        "score": "118",
+        "winner": true,
+        "acsblClr": "#000000",
+        "ltMdAcsblClr": "#000000",
+        "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sa.png&cquality=80&h=64&w=64"
+      },
+      "away": {
+        "id": "17",
+        "abbrev": "BKN",
+        "displayName": "Brooklyn Nets",
+        "shortDisplayName": "Nets",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "teamColor": "000000",
+        "altColor": "ffffff",
+        "uid": "s:40~l:46~t:17",
+        "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+        "recordSummary": "",
+        "standingSummary": "",
+        "location": "Brooklyn",
+        "links": "/nba/team/_/name/bkn/brooklyn-nets",
+        "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+        "records": [
+          {
+            "type": "total",
+            "summary": "0-3",
+            "displayValue": "0-3"
+          },
+          {
+            "type": "road",
+            "summary": "0-2",
+            "displayValue": "0-2"
+          }
+        ],
+        "recordTotal": "0-3",
+        "recordSupplemental": "0-2 Away",
+        "isHome": false,
+        "gmStrpClrV4": "#48494a",
+        "linescores": [
+          {
+            "displayValue": "24"
+          },
+          {
+            "displayValue": "24"
+          },
+          {
+            "displayValue": "33"
+          },
+          {
+            "displayValue": "26"
+          }
+        ],
+        "calculatedLinescores": [
+          {
+            "displayValue": "24"
+          },
+          {
+            "displayValue": "24"
+          },
+          {
+            "displayValue": "33"
+          },
+          {
+            "displayValue": "26"
+          }
+        ],
+        "score": "107",
+        "acsblClr": "#5a5c5d",
+        "ltMdAcsblClr": "#5a5c5d",
+        "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&cquality=80&h=64&w=64"
+      }
+    },
+    "shop": null,
+    "ssnSrs": [
+      {
+        "evts": [
+          {
+            "id": "401809960",
+            "uid": "s:40~l:46~e:401809960~c:401809960",
+            "date": "2025-10-26T18:00:00Z",
+            "timeValid": true,
+            "status": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "statusType": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "competitors": [
+              {
+                "id": "24",
+                "abbrev": "SA",
+                "displayName": "San Antonio Spurs",
+                "shortDisplayName": "Spurs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                "teamColor": "000000",
+                "altColor": "c4ced4",
+                "uid": "s:40~l:46~t:24",
+                "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+                "recordSummary": "",
+                "standingSummary": "",
+                "location": "San Antonio",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+                    "text": "Schedule"
+                  }
+                ],
+                "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                "records": [
+                  {
+                    "type": "total",
+                    "summary": "3-0",
+                    "displayValue": "3-0"
+                  },
+                  {
+                    "type": "home",
+                    "summary": "1-0",
+                    "displayValue": "1-0"
+                  }
+                ],
+                "recordTotal": "3-0",
+                "recordSupplemental": "1-0 Home",
+                "isHome": true,
+                "gmStrpClrV4": "#c4ced4",
+                "linescores": [
+                  {
+                    "displayValue": "31"
+                  },
+                  {
+                    "displayValue": "38"
+                  },
+                  {
+                    "displayValue": "19"
+                  },
+                  {
+                    "displayValue": "30"
+                  }
+                ],
+                "calculatedLinescores": [
+                  {
+                    "displayValue": "31"
+                  },
+                  {
+                    "displayValue": "38"
+                  },
+                  {
+                    "displayValue": "19"
+                  },
+                  {
+                    "displayValue": "30"
+                  }
+                ],
+                "score": "118",
+                "winner": true,
+                "acsblClr": "#000000",
+                "ltMdAcsblClr": "#000000",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sa.png&cquality=80&h=64&w=64",
+                "homeAway": "home",
+                "team": {
+                  "id": "24",
+                  "uid": "s:40~l:46~t:24",
+                  "displayName": "San Antonio Spurs",
+                  "abbreviation": "SA",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+                      "text": "Clubhouse"
+                    },
+                    {
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+                      "text": "Schedule"
+                    }
+                  ],
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "default"
+                      ],
+                      "lastUpdated": "2024-06-25T21:17Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard"
+                      ],
+                      "lastUpdated": "2024-06-25T21:18Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:14Z"
+                    }
+                  ]
+                },
+                "abbreviation": "SA",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard"
+                    ],
+                    "lastUpdated": "2024-06-25T21:18Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:14Z"
+                  }
+                ]
+              },
+              {
+                "id": "17",
+                "abbrev": "BKN",
+                "displayName": "Brooklyn Nets",
+                "shortDisplayName": "Nets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                "teamColor": "000000",
+                "altColor": "ffffff",
+                "uid": "s:40~l:46~t:17",
+                "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+                "recordSummary": "",
+                "standingSummary": "",
+                "location": "Brooklyn",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/bkn",
+                    "text": "Schedule"
+                  }
+                ],
+                "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                "records": [
+                  {
+                    "type": "total",
+                    "summary": "0-3",
+                    "displayValue": "0-3"
+                  },
+                  {
+                    "type": "road",
+                    "summary": "0-2",
+                    "displayValue": "0-2"
+                  }
+                ],
+                "recordTotal": "0-3",
+                "recordSupplemental": "0-2 Away",
+                "isHome": false,
+                "gmStrpClrV4": "#48494a",
+                "linescores": [
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "33"
+                  },
+                  {
+                    "displayValue": "26"
+                  }
+                ],
+                "calculatedLinescores": [
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "33"
+                  },
+                  {
+                    "displayValue": "26"
+                  }
+                ],
+                "score": "107",
+                "acsblClr": "#5a5c5d",
+                "ltMdAcsblClr": "#5a5c5d",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&cquality=80&h=64&w=64",
+                "homeAway": "away",
+                "winner": false,
+                "team": {
+                  "id": "17",
+                  "uid": "s:40~l:46~t:17",
+                  "displayName": "Brooklyn Nets",
+                  "abbreviation": "BKN",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+                      "text": "Clubhouse"
+                    },
+                    {
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/bkn",
+                      "text": "Schedule"
+                    }
+                  ],
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "default"
+                      ],
+                      "lastUpdated": "2024-06-25T21:17Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard"
+                      ],
+                      "lastUpdated": "2024-06-25T21:18Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    }
+                  ]
+                },
+                "abbreviation": "BKN",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard"
+                    ],
+                    "lastUpdated": "2024-06-25T21:18Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              }
+            ],
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "summary",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/nba/game/_/gameId/401809960/nets-spurs",
+                "text": "Gamecast",
+                "shortText": "Summary",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "summary",
+                  "sportscenter",
+                  "app",
+                  "event"
+                ],
+                "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401809960",
+                "text": "Gamecast",
+                "shortText": "Summary",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "broadcasts": [
+              {
+                "name": ""
+              }
+            ],
+            "isSeries": true,
+            "seriesNote": "Game 1",
+            "day": "26",
+            "month": "10"
+          },
+          {
+            "id": "401810706",
+            "uid": "s:40~l:46~e:401810706~c:401810706",
+            "date": "2026-02-27T00:30:00Z",
+            "timeValid": true,
+            "status": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Thu, February 26th at 7:30 PM EST",
+              "shortDetail": "2/26 - 7:30 PM EST"
+            },
+            "statusType": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Thu, February 26th at 7:30 PM EST",
+              "shortDetail": "2/26 - 7:30 PM EST"
+            },
+            "broadcasts": [
+              {
+                "name": ""
+              }
+            ],
+            "competitors": [
+              {
+                "id": "17",
+                "abbrev": "BKN",
+                "displayName": "Brooklyn Nets",
+                "shortDisplayName": "Nets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                "teamColor": "000000",
+                "altColor": "ffffff",
+                "uid": "s:40~l:46~t:17",
+                "guid": "926db769-d35e-e282-9d7e-a05001d774ab",
+                "recordSummary": "",
+                "standingSummary": "",
+                "location": "Brooklyn",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/bkn",
+                    "text": "Schedule"
+                  }
+                ],
+                "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                "records": [
+                  {
+                    "type": "total",
+                    "summary": "0-3",
+                    "displayValue": "0-3"
+                  },
+                  {
+                    "type": "road",
+                    "summary": "0-2",
+                    "displayValue": "0-2"
+                  }
+                ],
+                "recordTotal": "0-3",
+                "recordSupplemental": "0-2 Away",
+                "isHome": false,
+                "gmStrpClrV4": "#48494a",
+                "linescores": [
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "33"
+                  },
+                  {
+                    "displayValue": "26"
+                  }
+                ],
+                "calculatedLinescores": [
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "24"
+                  },
+                  {
+                    "displayValue": "33"
+                  },
+                  {
+                    "displayValue": "26"
+                  }
+                ],
+                "score": "0",
+                "acsblClr": "#5a5c5d",
+                "ltMdAcsblClr": "#5a5c5d",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&cquality=80&h=64&w=64",
+                "homeAway": "home",
+                "team": {
+                  "id": "17",
+                  "uid": "s:40~l:46~t:17",
+                  "displayName": "Brooklyn Nets",
+                  "abbreviation": "BKN",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nba/team/_/name/bkn/brooklyn-nets",
+                      "text": "Clubhouse"
+                    },
+                    {
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/bkn",
+                      "text": "Schedule"
+                    }
+                  ],
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "default"
+                      ],
+                      "lastUpdated": "2024-06-25T21:17Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard"
+                      ],
+                      "lastUpdated": "2024-06-25T21:18Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    }
+                  ]
+                },
+                "abbreviation": "BKN",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard"
+                    ],
+                    "lastUpdated": "2024-06-25T21:18Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/bkn.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  }
+                ]
+              },
+              {
+                "id": "24",
+                "abbrev": "SA",
+                "displayName": "San Antonio Spurs",
+                "shortDisplayName": "Spurs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                "teamColor": "000000",
+                "altColor": "c4ced4",
+                "uid": "s:40~l:46~t:24",
+                "guid": "8aef8547-32f5-0943-a1de-e734567674cc",
+                "recordSummary": "",
+                "standingSummary": "",
+                "location": "San Antonio",
+                "links": [
+                  {
+                    "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+                    "text": "Clubhouse"
+                  },
+                  {
+                    "href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+                    "text": "Schedule"
+                  }
+                ],
+                "logoDk": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                "records": [
+                  {
+                    "type": "total",
+                    "summary": "3-0",
+                    "displayValue": "3-0"
+                  },
+                  {
+                    "type": "home",
+                    "summary": "1-0",
+                    "displayValue": "1-0"
+                  }
+                ],
+                "recordTotal": "3-0",
+                "recordSupplemental": "1-0 Home",
+                "isHome": true,
+                "gmStrpClrV4": "#c4ced4",
+                "linescores": [
+                  {
+                    "displayValue": "31"
+                  },
+                  {
+                    "displayValue": "38"
+                  },
+                  {
+                    "displayValue": "19"
+                  },
+                  {
+                    "displayValue": "30"
+                  }
+                ],
+                "calculatedLinescores": [
+                  {
+                    "displayValue": "31"
+                  },
+                  {
+                    "displayValue": "38"
+                  },
+                  {
+                    "displayValue": "19"
+                  },
+                  {
+                    "displayValue": "30"
+                  }
+                ],
+                "score": "0",
+                "winner": true,
+                "acsblClr": "#000000",
+                "ltMdAcsblClr": "#000000",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sa.png&cquality=80&h=64&w=64",
+                "homeAway": "away",
+                "team": {
+                  "id": "24",
+                  "uid": "s:40~l:46~t:24",
+                  "displayName": "San Antonio Spurs",
+                  "abbreviation": "SA",
+                  "links": [
+                    {
+                      "href": "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs",
+                      "text": "Clubhouse"
+                    },
+                    {
+                      "href": "https://www.espn.com/nba/team/schedule/_/name/sa",
+                      "text": "Schedule"
+                    }
+                  ],
+                  "logos": [
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "default"
+                      ],
+                      "lastUpdated": "2024-06-25T21:17Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:13Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard"
+                      ],
+                      "lastUpdated": "2024-06-25T21:18Z"
+                    },
+                    {
+                      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                      "width": 500,
+                      "height": 500,
+                      "alt": "",
+                      "rel": [
+                        "full",
+                        "scoreboard",
+                        "dark"
+                      ],
+                      "lastUpdated": "2024-06-25T21:14Z"
+                    }
+                  ]
+                },
+                "abbreviation": "SA",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "default"
+                    ],
+                    "lastUpdated": "2024-06-25T21:17Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:13Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard"
+                    ],
+                    "lastUpdated": "2024-06-25T21:18Z"
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/sa.png",
+                    "width": 500,
+                    "height": 500,
+                    "alt": "",
+                    "rel": [
+                      "full",
+                      "scoreboard",
+                      "dark"
+                    ],
+                    "lastUpdated": "2024-06-25T21:14Z"
+                  }
+                ]
+              }
+            ],
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "summary",
+                  "desktop",
+                  "event"
+                ],
+                "href": "https://www.espn.com/nba/game/_/gameId/401810706/spurs-nets",
+                "text": "Gamecast",
+                "shortText": "Summary",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "summary",
+                  "sportscenter",
+                  "app",
+                  "event"
+                ],
+                "href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=nba&gameId=401810706",
+                "text": "Gamecast",
+                "shortText": "Summary",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "isSeries": true,
+            "seriesNote": "Game 2",
+            "day": "26",
+            "month": "2"
+          }
+        ],
+        "summ": "SA leads series 1-0",
+        "title": "Regular Season Series",
+        "type": "season"
+      }
+    ],
+    "stndngs": [
+      {
+        "shrtDspNm": "2026 Standings",
+        "dspNm": "2025-26 Atlantic Standings",
+        "cnfrncDspNm": "Eastern Conference",
+        "dvsnDspNm": "Atlantic",
+        "feed": [
+          {
+            "entries": [
+              {
+                "team": {
+                  "id": "20",
+                  "displayName": "Philadelphia",
+                  "shortDisplayName": "Philadelphia",
+                  "uid": "s:40~l:46~t:20",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/phi/philadelphia-76ers"
+                },
+                "stats": [
+                  "-",
+                  "2",
+                  "L1",
+                  ".714",
+                  "5"
+                ]
+              },
+              {
+                "team": {
+                  "id": "18",
+                  "displayName": "New York",
+                  "shortDisplayName": "New York",
+                  "uid": "s:40~l:46~t:18",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/ny/new-york-knicks"
+                },
+                "stats": [
+                  "1",
+                  "3",
+                  "W2",
+                  ".571",
+                  "4"
+                ]
+              },
+              {
+                "team": {
+                  "id": "28",
+                  "displayName": "Toronto",
+                  "shortDisplayName": "Toronto",
+                  "uid": "s:40~l:46~t:28",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/tor/toronto-raptors"
+                },
+                "stats": [
+                  "1.5",
+                  "4",
+                  "W3",
+                  ".500",
+                  "4"
+                ]
+              },
+              {
+                "team": {
+                  "id": "2",
+                  "displayName": "Boston",
+                  "shortDisplayName": "Boston",
+                  "uid": "s:40~l:46~t:2",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/bos/boston-celtics"
+                },
+                "stats": [
+                  "2.5",
+                  "5",
+                  "L2",
+                  ".375",
+                  "3"
+                ]
+              },
+              {
+                "team": {
+                  "id": "17",
+                  "displayName": "Brooklyn",
+                  "shortDisplayName": "Brooklyn",
+                  "uid": "s:40~l:46~t:17",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/bkn/brooklyn-nets"
+                },
+                "stats": [
+                  "5",
+                  "7",
+                  "L7",
+                  ".000",
+                  "0"
+                ]
+              }
+            ],
+            "statMap": {
+              "gamesbehind": {
+                "t": "gamesbehind",
+                "d": "Games Back",
+                "a": "GB",
+                "i": 0
+              },
+              "losses": {
+                "t": "losses",
+                "d": "Losses",
+                "a": "L",
+                "i": 1
+              },
+              "streak": {
+                "t": "streak",
+                "d": "Current Streak",
+                "a": "STRK",
+                "i": 2
+              },
+              "winpercent": {
+                "t": "winpercent",
+                "d": "Winning Percentage",
+                "a": "PCT",
+                "i": 3
+              },
+              "wins": {
+                "t": "wins",
+                "d": "Wins",
+                "a": "W",
+                "i": 4
+              }
+            }
+          }
+        ],
+        "tmFeat": [
+          "24",
+          "17"
+        ],
+        "isSameCnfrnc": false,
+        "lnk": "https://www.espn.com/nba/standings",
+        "lnkTxt": "Full Standings",
+        "lgUid": "s:40~l:46"
+      },
+      {
+        "shrtDspNm": "2026 Standings",
+        "dspNm": "2025-26 Southwest Standings",
+        "cnfrncDspNm": "Western Conference",
+        "dvsnDspNm": "Southwest",
+        "feed": [
+          {
+            "entries": [
+              {
+                "team": {
+                  "id": "24",
+                  "displayName": "San Antonio",
+                  "shortDisplayName": "San Antonio",
+                  "uid": "s:40~l:46~t:24",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/sa/san-antonio-spurs"
+                },
+                "stats": [
+                  "-",
+                  "1",
+                  "L1",
+                  ".833",
+                  "5"
+                ]
+              },
+              {
+                "team": {
+                  "id": "10",
+                  "displayName": "Houston",
+                  "shortDisplayName": "Houston",
+                  "uid": "s:40~l:46~t:10",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/hou/houston-rockets"
+                },
+                "stats": [
+                  "1",
+                  "2",
+                  "W4",
+                  ".667",
+                  "4"
+                ]
+              },
+              {
+                "team": {
+                  "id": "29",
+                  "displayName": "Memphis",
+                  "shortDisplayName": "Memphis",
+                  "uid": "s:40~l:46~t:29",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/mem/memphis-grizzlies"
+                },
+                "stats": [
+                  "3",
+                  "5",
+                  "L3",
+                  ".375",
+                  "3"
+                ]
+              },
+              {
+                "team": {
+                  "id": "6",
+                  "displayName": "Dallas",
+                  "shortDisplayName": "Dallas",
+                  "uid": "s:40~l:46~t:6",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/dal/dallas-mavericks"
+                },
+                "stats": [
+                  "3.5",
+                  "5",
+                  "L2",
+                  ".286",
+                  "2"
+                ]
+              },
+              {
+                "team": {
+                  "id": "3",
+                  "displayName": "New Orleans",
+                  "shortDisplayName": "New Orleans",
+                  "uid": "s:40~l:46~t:3",
+                  "recordSummary": "",
+                  "standingSummary": "",
+                  "links": "/nba/team/_/name/no/new-orleans-pelicans"
+                },
+                "stats": [
+                  "4.5",
+                  "6",
+                  "W1",
+                  ".143",
+                  "1"
+                ]
+              }
+            ],
+            "statMap": {
+              "gamesbehind": {
+                "t": "gamesbehind",
+                "d": "Games Back",
+                "a": "GB",
+                "i": 0
+              },
+              "losses": {
+                "t": "losses",
+                "d": "Losses",
+                "a": "L",
+                "i": 1
+              },
+              "streak": {
+                "t": "streak",
+                "d": "Current Streak",
+                "a": "STRK",
+                "i": 2
+              },
+              "winpercent": {
+                "t": "winpercent",
+                "d": "Winning Percentage",
+                "a": "PCT",
+                "i": 3
+              },
+              "wins": {
+                "t": "wins",
+                "d": "Wins",
+                "a": "W",
+                "i": 4
+              }
+            }
+          }
+        ],
+        "tmFeat": [
+          "24",
+          "17"
+        ],
+        "isSameCnfrnc": false,
+        "lnk": "https://www.espn.com/nba/standings",
+        "lnkTxt": "Full Standings",
+        "lgUid": "s:40~l:46"
+      }
+    ],
+    "inCntStrp": false,
+    "gmInfo": {
+      "attnd": 19016,
+      "broadcasts": [
+        {
+          "type": "1",
+          "market": "Away",
+          "name": "YES",
+          "lang": "en"
+        },
+        {
+          "type": "6",
+          "market": "Away",
+          "name": "NBA League Pass",
+          "lang": "en"
+        },
+        {
+          "type": "1",
+          "market": "Home",
+          "name": "FanDuel SN SW",
+          "lang": "en"
+        }
+      ],
+      "cvrg": "",
+      "oddsAttr": "https://assets.espn.com/i/espnbet/ESPN_Bet_Sportsbook_Attribution_Light.svg",
+      "darkOddsAttr": "https://assets.espn.com/i/espnbet/ESPN_Bet_Sportsbook_Attribution_Dark.svg",
+      "gameState": "post",
+      "dtTmVld": true,
+      "dtTm": "2025-10-26T18:00Z",
+      "refs": [
+        {
+          "dspNm": "Eric Dalen",
+          "pos": "Referee"
+        },
+        {
+          "dspNm": "Michael Smith",
+          "pos": "Referee"
+        },
+        {
+          "dspNm": "Tyler Ford",
+          "pos": "Referee"
+        }
+      ],
+      "venueId": "780",
+      "loc": "Frost Bank Center",
+      "locImg": "https://a.espncdn.com/i/venues/nba/day/780.jpg",
+      "locAddr": {
+        "city": "San Antonio",
+        "state": "TX"
+      },
+      "weatherLink": "https://www.accuweather.com/?partner=espn_gc"
+    },
+    "links": [
+      {
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/game/_/gameId/401809960/nets-spurs",
+        "text": "Gamecast",
+        "shortText": "Summary",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/recap?gameId=401809960",
+        "text": "Recap",
+        "shortText": "Recap",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "boxscore",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/boxscore/_/gameId/401809960",
+        "text": "Box Score",
+        "shortText": "Box Score",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "pbp",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/playbyplay/_/gameId/401809960",
+        "text": "Play-by-Play",
+        "shortText": "Play-by-Play",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/matchup?gameId=401809960",
+        "text": "Team Stats",
+        "shortText": "Team Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "rel": [
+          "videos",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/nba/video?gameId=401809960",
+        "text": "Videos",
+        "shortText": "Videos",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "showSwitcher": true,
+    "isCurSzn": true,
+    "news": {
+      "header": "NBA News",
+      "articles": [
+        {
+          "id": 46854098,
+          "headline": "Warriors' Jimmy Butler ruled out vs. Suns with sore lower back",
+          "byLine": "Anthony Slater",
+          "description": "Warriors forward Jimmy Butler, who was dealing with a sore lower back coming into Tuesday's game against the Suns, played just 14 first-half minutes and was ruled out in the third quarter.",
+          "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1105/r1571014_600x400_3-2.jpg&w=220",
+          "premium": false,
+          "published": "2025-11-05T04:58:04Z",
+          "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+          "images": [
+            {
+              "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1105/r1571014_600x400_3-2.jpg&w=220",
+              "alt": "Warriors' Jimmy Butler ruled out vs. Suns with sore lower back"
+            }
+          ],
+          "link": "/nba/story/_/id/46854098/warriors-jimmy-butler-ruled-vs-suns-sore-lower-back"
+        },
+        {
+          "id": 46853731,
+          "headline": "Hawks roll to 127-112 victory over the Magic",
+          "byLine": "",
+          "description": "\u2014 Zaccharie Risacher scored 21 points, Nickeil Alexander-Walker had 20 and the Atlanta Hawks beat the Orlando Magic 127-112 on Tuesday night.",
+          "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2025/1104/dm_251104_INET_NBA_Highlight_Dyson_Daniels_powers_Atlanta_with_1866_in_big_win_20251105_PACRIM/dm_251104_INET_NBA_Highlight_Dyson_Daniels_powers_Atlanta_with_1866_in_big_win_20251105_PACRIM.jpg&w=220",
+          "premium": false,
+          "published": "2025-11-05T04:14:12Z",
+          "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+          "images": [
+            {
+              "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2025/1104/dm_251104_INET_NBA_Highlight_Dyson_Daniels_powers_Atlanta_with_1866_in_big_win_20251105_PACRIM/dm_251104_INET_NBA_Highlight_Dyson_Daniels_powers_Atlanta_with_1866_in_big_win_20251105_PACRIM.jpg&w=220",
+              "alt": "Hawks roll to 127-112 victory over the Magic"
+            }
+          ],
+          "link": "/nba/recap/_/gameId/401810021"
+        },
+        {
+          "id": 46853691,
+          "headline": "Orlando Magic vs. Atlanta Hawks: Game Highlights",
+          "byLine": "",
+          "description": "Orlando Magic vs. Atlanta Hawks: Game Highlights",
+          "image": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2025/1105/687f0c5d-96f2-4c36-b14b-3d847cc4ed2d/687f0c5d-96f2-4c36-b14b-3d847cc4ed2d.jpg&w=220",
+          "premium": false,
+          "published": "2025-11-05T04:08:31Z",
+          "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+          "images": [
+            {
+              "src": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2025/1105/687f0c5d-96f2-4c36-b14b-3d847cc4ed2d/687f0c5d-96f2-4c36-b14b-3d847cc4ed2d.jpg&w=220",
+              "alt": "Orlando Magic vs. Atlanta Hawks: Game Highlights"
+            }
+          ],
+          "link": "/video/clip/_/id/46853691"
+        }
+      ],
+      "leagueUid": "s:40~l:46",
+      "link": "/nba/",
+      "text": "All NBA News"
+    },
+    "medialst": {
+      "vids": [
+        {
+          "ad": {
+            "sport": "nba",
+            "bundle": "sportscenter"
+          },
+          "cerebroId": "68fe9297c66a8438e7a87dd6",
+          "id": "46736384",
+          "description": "Brooklyn Nets vs. San Antonio Spurs: Game Highlights",
+          "duration": "1:13",
+          "imgSrc": "https://a.espncdn.com/media/motion/wsc/2025/1026/4806f3db-0b1c-403d-8f46-2e74c0576250/4806f3db-0b1c-403d-8f46-2e74c0576250.jpg",
+          "imgSrcWidth": 1200,
+          "imgSrcHeight": 630,
+          "lang": "en",
+          "expirationDate": "2026-07-31T04:00:00Z",
+          "lastModified": "2025-10-26T21:29:16Z",
+          "publishDate": "2025-10-26T21:28:46Z",
+          "source": "espn",
+          "headline": "Brooklyn Nets vs. San Antonio Spurs: Game Highlights",
+          "customMetaData": {
+            "ContentType": "Video",
+            "Edition": "en-us",
+            "Embedded": "no",
+            "Language": "en_us",
+            "League": "nba",
+            "Orientation": "desktop",
+            "Placement": "nba:gamepackage:standalone",
+            "PlayLocation": "nba:gamepackage",
+            "PlayerName": "Brightcove-vod",
+            "ReportSuite": "wdgespcom,wdgespge",
+            "Site": "espn",
+            "Sport": "nba",
+            "TrackingServer": "w88.espn.com",
+            "VideoType": "VOD"
+          },
+          "videoSrc": {
+            "defaultSrc": "https://media.video-cdn.espn.com/motion/wsc/2025/1026/4806f3db-0b1c-403d-8f46-2e74c0576250/4806f3db-0b1c-403d-8f46-2e74c0576250_360p30_1464k.mp4",
+            "webSrc": "https://www.espn.com/video/clip?id=46736384"
+          },
+          "track": {
+            "coverageType": "Final Game Highlight",
+            "leagueName": "NBA",
+            "sportName": "basketball",
+            "trackId": "dm_20251026_NBA_brooklyn_nets_vs_san_antonio_spurs_game_highlights",
+            "trackName": "NBA_One-Play (Brooklyn Nets vs. San Antonio Spurs: Game Highlights) 2025/10/26 ESHEET"
+          }
+        },
+        {
+          "ad": {
+            "sport": "nba",
+            "bundle": "sportscenter"
+          },
+          "cerebroId": "68fe8878a421b770c07c50f3",
+          "id": "46735956",
+          "description": "Devin Vassell elevates for jam Brooklyn Nets",
+          "duration": "0:18",
+          "imgSrc": "https://a.espncdn.com/media/motion/wsc/2025/1026/3b10923e-d9f5-4375-81b5-7e30fc83575d/3b10923e-d9f5-4375-81b5-7e30fc83575d.jpg",
+          "imgSrcWidth": 1200,
+          "imgSrcHeight": 630,
+          "lang": "en",
+          "expirationDate": "2026-07-31T04:00:00Z",
+          "lastModified": "2025-10-26T20:46:03Z",
+          "publishDate": "2025-10-26T20:45:37Z",
+          "source": "espn",
+          "headline": "Devin Vassell elevates for jam Brooklyn Nets",
+          "customMetaData": {
+            "ContentType": "Video",
+            "Edition": "en-us",
+            "Embedded": "no",
+            "Language": "en_us",
+            "League": "nba",
+            "Orientation": "desktop",
+            "Placement": "nba:gamepackage:standalone",
+            "PlayLocation": "nba:gamepackage",
+            "PlayerName": "Brightcove-vod",
+            "ReportSuite": "wdgespcom,wdgespge",
+            "Site": "espn",
+            "Sport": "nba",
+            "TrackingServer": "w88.espn.com",
+            "VideoType": "VOD"
+          },
+          "videoSrc": {
+            "defaultSrc": "https://media.video-cdn.espn.com/motion/wsc/2025/1026/3b10923e-d9f5-4375-81b5-7e30fc83575d/3b10923e-d9f5-4375-81b5-7e30fc83575d_360p30_1464k.mp4",
+            "webSrc": "https://www.espn.com/video/clip?id=46735956"
+          },
+          "track": {
+            "coverageType": "OnePlay",
+            "leagueName": "NBA",
+            "sportName": "basketball",
+            "trackId": "dm_20251026_NBA_devin_vassell_elevates_for_jam_brooklyn_nets",
+            "trackName": "NBA_One-Play (Devin Vassell elevates for jam Brooklyn Nets) 2025/10/26 ESHEET"
+          }
+        },
+        {
+          "ad": {
+            "sport": "nba",
+            "bundle": "sportscenter"
+          },
+          "cerebroId": "68fe86644e62f67fb8d8c61a",
+          "id": "46735908",
+          "description": "Cam Thomas drains triple vs. San Antonio Spurs",
+          "duration": "0:18",
+          "imgSrc": "https://a.espncdn.com/media/motion/wsc/2025/1026/bfbb9da1-0bba-4e5e-a913-b7bbf5a5fec4/bfbb9da1-0bba-4e5e-a913-b7bbf5a5fec4.jpg",
+          "imgSrcWidth": 1200,
+          "imgSrcHeight": 630,
+          "lang": "en",
+          "expirationDate": "2026-07-31T04:00:00Z",
+          "lastModified": "2025-10-26T20:37:06Z",
+          "publishDate": "2025-10-26T20:36:44Z",
+          "source": "espn",
+          "headline": "Cam Thomas hits the 3-point shot San Antonio Spurs",
+          "customMetaData": {
+            "ContentType": "Video",
+            "Edition": "en-us",
+            "Embedded": "no",
+            "Language": "en_us",
+            "League": "nba",
+            "Orientation": "desktop",
+            "Placement": "nba:gamepackage:standalone",
+            "PlayLocation": "nba:gamepackage",
+            "PlayerName": "Brightcove-vod",
+            "ReportSuite": "wdgespcom,wdgespge",
+            "Site": "espn",
+            "Sport": "nba",
+            "TrackingServer": "w88.espn.com",
+            "VideoType": "VOD"
+          },
+          "videoSrc": {
+            "defaultSrc": "https://media.video-cdn.espn.com/motion/wsc/2025/1026/bfbb9da1-0bba-4e5e-a913-b7bbf5a5fec4/bfbb9da1-0bba-4e5e-a913-b7bbf5a5fec4_360p30_1464k.mp4",
+            "webSrc": "https://www.espn.com/video/clip?id=46735908"
+          },
+          "track": {
+            "coverageType": "OnePlay",
+            "leagueName": "NBA",
+            "sportName": "basketball",
+            "trackId": "dm_20251026_NBA_cam_thomas_hits_the_3point_shot_san_antonio_spurs",
+            "trackName": "NBA_One-Play (Cam Thomas hits the 3-point shot San Antonio Spurs) 2025/10/26 ESHEET"
+          }
+        }
+      ],
+      "cmpttn": {
+        "awy": "BKN",
+        "hme": "SA",
+        "ntrlSte": false
+      }
+    },
+    "sbpg": "boxscore",
+    "bxscr": [
+      {
+        "tm": {
+          "abbrev": "BKN",
+          "dspNm": "Brooklyn Nets",
+          "id": "17",
+          "nm": "Nets",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+          "hm": false
+        },
+        "stats": [
+          {
+            "athlts": [
+              {
+                "stats": [
+                  "38",
+                  "15",
+                  "0",
+                  "6",
+                  "6",
+                  "4",
+                  "2",
+                  "0",
+                  "0",
+                  "5-15",
+                  "33.3",
+                  "3-9",
+                  "33.3",
+                  "2-3",
+                  "66.7",
+                  "2",
+                  "-6"
+                ],
+                "athlt": {
+                  "id": "4278104",
+                  "guid": "84f89e6d-8dd8-5b8b-bfe7-83ba59ee5121",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4278104/michael-porter-jr",
+                  "uid": "s:40~l:46~a:4278104",
+                  "jersey": "17",
+                  "shrtNm": "M. Porter Jr.",
+                  "dspNm": "Michael Porter Jr."
+                }
+              },
+              {
+                "stats": [
+                  "26",
+                  "10",
+                  "3",
+                  "2",
+                  "5",
+                  "2",
+                  "1",
+                  "0",
+                  "0",
+                  "4-7",
+                  "57.1",
+                  "0-1",
+                  "0.0",
+                  "2-2",
+                  "100.0",
+                  "5",
+                  "-25"
+                ],
+                "athlt": {
+                  "id": "4278067",
+                  "guid": "2f68e9f3-e30b-d154-51bb-0c2a5334860a",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4278067/nic-claxton",
+                  "uid": "s:40~l:46~a:4278067",
+                  "jersey": "33",
+                  "shrtNm": "N. Claxton",
+                  "dspNm": "Nic Claxton"
+                }
+              },
+              {
+                "stats": [
+                  "31",
+                  "7",
+                  "3",
+                  "3",
+                  "6",
+                  "3",
+                  "2",
+                  "0",
+                  "0",
+                  "3-7",
+                  "42.9",
+                  "1-3",
+                  "33.3",
+                  "0-0",
+                  "0.0",
+                  "2",
+                  "-11"
+                ],
+                "athlt": {
+                  "id": "3907823",
+                  "guid": "14bc202c-2458-6189-f964-32085299060a",
+                  "lnk": "https://www.espn.com/nba/player/_/id/3907823/terance-mann",
+                  "uid": "s:40~l:46~a:3907823",
+                  "jersey": "14",
+                  "shrtNm": "T. Mann",
+                  "dspNm": "Terance Mann"
+                }
+              },
+              {
+                "stats": [
+                  "32",
+                  "41",
+                  "0",
+                  "2",
+                  "2",
+                  "0",
+                  "0",
+                  "0",
+                  "3",
+                  "11-25",
+                  "44.0",
+                  "5-12",
+                  "41.7",
+                  "14-14",
+                  "100.0",
+                  "0",
+                  "-7"
+                ],
+                "athlt": {
+                  "id": "4432174",
+                  "guid": "55617f6a-a1fb-326e-8c71-31211dcad955",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4432174/cam-thomas",
+                  "uid": "s:40~l:46~a:4432174",
+                  "jersey": "24",
+                  "shrtNm": "C. Thomas",
+                  "dspNm": "Cam Thomas"
+                }
+              },
+              {
+                "stats": [
+                  "15",
+                  "0",
+                  "0",
+                  "1",
+                  "1",
+                  "5",
+                  "1",
+                  "0",
+                  "0",
+                  "0-4",
+                  "0.0",
+                  "0-2",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "3",
+                  "-8"
+                ],
+                "athlt": {
+                  "id": "5242502",
+                  "guid": "696ad3e8-27db-3193-8f1b-f01b4ac1e3c9",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5242502/ben-saraf",
+                  "uid": "s:40~l:46~a:5242502",
+                  "jersey": "77",
+                  "shrtNm": "B. Saraf",
+                  "dspNm": "Ben Saraf"
+                }
+              }
+            ],
+            "keys": [
+              "minutes",
+              "points",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "fieldGoalPct",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "threePointFieldGoalPct",
+              "freeThrowsMade-freeThrowsAttempted",
+              "freeThrowPct",
+              "fouls",
+              "plusMinus"
+            ],
+            "lbls": [
+              "MIN",
+              "PTS",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "FG",
+              "FG%",
+              "3PT",
+              "3PT%",
+              "FT",
+              "FT%",
+              "PF",
+              "+/-"
+            ],
+            "type": "starters"
+          },
+          {
+            "athlts": [
+              {
+                "stats": [
+                  "15",
+                  "9",
+                  "0",
+                  "1",
+                  "1",
+                  "1",
+                  "0",
+                  "0",
+                  "1",
+                  "3-4",
+                  "75.0",
+                  "3-4",
+                  "75.0",
+                  "0-0",
+                  "0.0",
+                  "2",
+                  "-3"
+                ],
+                "athlt": {
+                  "id": "4431714",
+                  "guid": "3a6b62f1-208d-a4e3-0c34-a20660ffdf80",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4431714/jalen-wilson",
+                  "uid": "s:40~l:46~a:4431714",
+                  "jersey": "22",
+                  "shrtNm": "J. Wilson",
+                  "dspNm": "Jalen Wilson"
+                }
+              },
+              {
+                "stats": [
+                  "13",
+                  "5",
+                  "1",
+                  "0",
+                  "1",
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "1-4",
+                  "25.0",
+                  "1-4",
+                  "25.0",
+                  "2-2",
+                  "100.0",
+                  "5",
+                  "-1"
+                ],
+                "athlt": {
+                  "id": "4433137",
+                  "guid": "ddb32530-906d-3a8e-94c6-e72430294a1a",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4433137/ziaire-williams",
+                  "uid": "s:40~l:46~a:4433137",
+                  "jersey": "1",
+                  "shrtNm": "Z. Williams",
+                  "dspNm": "Ziaire Williams"
+                }
+              },
+              {
+                "stats": [
+                  "24",
+                  "7",
+                  "0",
+                  "3",
+                  "3",
+                  "2",
+                  "0",
+                  "0",
+                  "0",
+                  "2-8",
+                  "25.0",
+                  "2-7",
+                  "28.6",
+                  "1-1",
+                  "100.0",
+                  "3",
+                  "-5"
+                ],
+                "athlt": {
+                  "id": "4712896",
+                  "guid": "eec5f676-3c7e-34b0-9d75-3b0007336541",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4712896/noah-clowney",
+                  "uid": "s:40~l:46~a:4712896",
+                  "jersey": "21",
+                  "shrtNm": "N. Clowney",
+                  "dspNm": "Noah Clowney"
+                }
+              },
+              {
+                "stats": [
+                  "15",
+                  "6",
+                  "2",
+                  "1",
+                  "3",
+                  "1",
+                  "2",
+                  "0",
+                  "4",
+                  "3-4",
+                  "75.0",
+                  "0-1",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "4",
+                  "+15"
+                ],
+                "athlt": {
+                  "id": "4432194",
+                  "guid": "ca2f4b35-a2bc-3bbe-a229-a11f5e326a9f",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4432194/dayron-sharpe",
+                  "uid": "s:40~l:46~a:4432194",
+                  "jersey": "20",
+                  "shrtNm": "D. Sharpe",
+                  "dspNm": "Day'Ron Sharpe"
+                }
+              },
+              {
+                "stats": [
+                  "12",
+                  "4",
+                  "1",
+                  "1",
+                  "2",
+                  "3",
+                  "0",
+                  "0",
+                  "1",
+                  "1-4",
+                  "25.0",
+                  "0-2",
+                  "0.0",
+                  "2-2",
+                  "100.0",
+                  "1",
+                  "+2"
+                ],
+                "athlt": {
+                  "id": "4397179",
+                  "guid": "cf2ef45f-75a2-ce32-aa75-07816d93f49b",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4397179/tyrese-martin",
+                  "uid": "s:40~l:46~a:4397179",
+                  "jersey": "13",
+                  "shrtNm": "T. Martin",
+                  "dspNm": "Tyrese Martin"
+                }
+              },
+              {
+                "stats": [
+                  "19",
+                  "3",
+                  "1",
+                  "3",
+                  "4",
+                  "1",
+                  "0",
+                  "0",
+                  "2",
+                  "1-5",
+                  "20.0",
+                  "1-5",
+                  "20.0",
+                  "0-0",
+                  "0.0",
+                  "3",
+                  "-6"
+                ],
+                "athlt": {
+                  "id": "5175643",
+                  "guid": "fb0aca8f-4878-3010-abe0-05b507191367",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5175643/egor-demin",
+                  "uid": "s:40~l:46~a:5175643",
+                  "jersey": "8",
+                  "shrtNm": "E. Demin",
+                  "dspNm": "Egor Demin"
+                }
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "4432821",
+                  "guid": "92e336df-b89f-3611-bef0-df37b16d1745",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4432821/ej-liddell",
+                  "uid": "s:40~l:46~a:4432821",
+                  "jersey": "9",
+                  "shrtNm": "E.J. Liddell",
+                  "dspNm": "E.J. Liddell"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "4432887",
+                  "guid": "0f4ef68d-3f66-3e68-bcda-5971e6db2176",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4432887/tyson-etienne",
+                  "uid": "s:40~l:46~a:4432887",
+                  "jersey": "10",
+                  "shrtNm": "T. Etienne",
+                  "dspNm": "Tyson Etienne"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "5279130",
+                  "guid": "5fad9947-6e8a-3232-be05-b9f1088c8da1",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5279130/nolan-traore",
+                  "uid": "s:40~l:46~a:5279130",
+                  "jersey": "88",
+                  "shrtNm": "N. Traore",
+                  "dspNm": "Nolan Traore"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              }
+            ],
+            "keys": [
+              "minutes",
+              "points",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "fieldGoalPct",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "threePointFieldGoalPct",
+              "freeThrowsMade-freeThrowsAttempted",
+              "freeThrowPct",
+              "fouls",
+              "plusMinus"
+            ],
+            "lbls": [
+              "MIN",
+              "PTS",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "FG",
+              "FG%",
+              "3PT",
+              "3PT%",
+              "FT",
+              "FT%",
+              "PF",
+              "+/-"
+            ],
+            "type": "bench"
+          },
+          {
+            "ttls": [
+              "",
+              "107",
+              "11",
+              "23",
+              "34",
+              "22",
+              "9",
+              "0",
+              "11",
+              "34-87",
+              "39.1",
+              "16-50",
+              "32.0",
+              "23-24",
+              "95.8",
+              "30",
+              ""
+            ],
+            "type": "totals"
+          }
+        ]
+      },
+      {
+        "tm": {
+          "abbrev": "SA",
+          "dspNm": "San Antonio Spurs",
+          "id": "24",
+          "nm": "Spurs",
+          "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+          "hm": true
+        },
+        "stats": [
+          {
+            "athlts": [
+              {
+                "stats": [
+                  "25",
+                  "4",
+                  "3",
+                  "0",
+                  "3",
+                  "1",
+                  "0",
+                  "0",
+                  "2",
+                  "2-9",
+                  "22.2",
+                  "0-5",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "1",
+                  "-6"
+                ],
+                "athlt": {
+                  "id": "6578",
+                  "guid": "2a44393f-f19d-019e-fc9a-3153d1ff0197",
+                  "lnk": "https://www.espn.com/nba/player/_/id/6578/harrison-barnes",
+                  "uid": "s:40~l:46~a:6578",
+                  "jersey": "40",
+                  "shrtNm": "H. Barnes",
+                  "dspNm": "Harrison Barnes"
+                }
+              },
+              {
+                "stats": [
+                  "31",
+                  "13",
+                  "0",
+                  "6",
+                  "6",
+                  "2",
+                  "0",
+                  "0",
+                  "0",
+                  "4-5",
+                  "80.0",
+                  "3-4",
+                  "75.0",
+                  "2-3",
+                  "66.7",
+                  "3",
+                  "+1"
+                ],
+                "athlt": {
+                  "id": "4592479",
+                  "guid": "8724b1cd-46be-3408-bc8b-77b4ed951a59",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4592479/julian-champagnie",
+                  "uid": "s:40~l:46~a:4592479",
+                  "jersey": "30",
+                  "shrtNm": "J. Champagnie",
+                  "dspNm": "Julian Champagnie"
+                }
+              },
+              {
+                "stats": [
+                  "36",
+                  "31",
+                  "1",
+                  "13",
+                  "14",
+                  "4",
+                  "3",
+                  "6",
+                  "2",
+                  "9-21",
+                  "42.9",
+                  "3-6",
+                  "50.0",
+                  "10-15",
+                  "66.7",
+                  "3",
+                  "+13"
+                ],
+                "athlt": {
+                  "id": "5104157",
+                  "guid": "0e8844b2-d923-3926-82d2-f19a29d69490",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5104157/victor-wembanyama",
+                  "uid": "s:40~l:46~a:5104157",
+                  "jersey": "1",
+                  "shrtNm": "V. Wembanyama",
+                  "dspNm": "Victor Wembanyama"
+                }
+              },
+              {
+                "stats": [
+                  "35",
+                  "16",
+                  "0",
+                  "3",
+                  "3",
+                  "1",
+                  "1",
+                  "0",
+                  "2",
+                  "6-12",
+                  "50.0",
+                  "4-6",
+                  "66.7",
+                  "0-0",
+                  "0.0",
+                  "2",
+                  "+12"
+                ],
+                "athlt": {
+                  "id": "4395630",
+                  "guid": "4a925ef3-a49b-2fc8-b55e-da12e9bcfdb6",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4395630/devin-vassell",
+                  "uid": "s:40~l:46~a:4395630",
+                  "jersey": "24",
+                  "shrtNm": "D. Vassell",
+                  "dspNm": "Devin Vassell"
+                }
+              },
+              {
+                "stats": [
+                  "30",
+                  "13",
+                  "2",
+                  "4",
+                  "6",
+                  "3",
+                  "0",
+                  "0",
+                  "5",
+                  "5-10",
+                  "50.0",
+                  "0-2",
+                  "0.0",
+                  "3-5",
+                  "60.0",
+                  "4",
+                  "-7"
+                ],
+                "athlt": {
+                  "id": "4845367",
+                  "guid": "26c7892b-12d0-3b1d-9645-f881921a1a20",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4845367/stephon-castle",
+                  "uid": "s:40~l:46~a:4845367",
+                  "jersey": "5",
+                  "shrtNm": "S. Castle",
+                  "dspNm": "Stephon Castle"
+                }
+              }
+            ],
+            "keys": [
+              "minutes",
+              "points",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "fieldGoalPct",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "threePointFieldGoalPct",
+              "freeThrowsMade-freeThrowsAttempted",
+              "freeThrowPct",
+              "fouls",
+              "plusMinus"
+            ],
+            "lbls": [
+              "MIN",
+              "PTS",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "FG",
+              "FG%",
+              "3PT",
+              "3PT%",
+              "FT",
+              "FT%",
+              "PF",
+              "+/-"
+            ],
+            "type": "starters"
+          },
+          {
+            "athlts": [
+              {
+                "stats": [
+                  "29",
+                  "19",
+                  "3",
+                  "3",
+                  "6",
+                  "1",
+                  "1",
+                  "0",
+                  "0",
+                  "5-9",
+                  "55.6",
+                  "2-4",
+                  "50.0",
+                  "7-7",
+                  "100.0",
+                  "1",
+                  "+19"
+                ],
+                "athlt": {
+                  "id": "4395723",
+                  "guid": "691dfac0-35e1-b597-c503-f0211c8f7f6f",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4395723/keldon-johnson",
+                  "uid": "s:40~l:46~a:4395723",
+                  "jersey": "3",
+                  "shrtNm": "K. Johnson",
+                  "dspNm": "Keldon Johnson"
+                }
+              },
+              {
+                "stats": [
+                  "5",
+                  "2",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "1",
+                  "0-0",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "2-2",
+                  "100.0",
+                  "2",
+                  "-1"
+                ],
+                "athlt": {
+                  "id": "5061568",
+                  "guid": "bf077b0c-98d4-3009-bb34-a07e5a64f4d2",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5061568/carter-bryant",
+                  "uid": "s:40~l:46~a:5061568",
+                  "jersey": "11",
+                  "shrtNm": "C. Bryant",
+                  "dspNm": "Carter Bryant"
+                }
+              },
+              {
+                "stats": [
+                  "12",
+                  "0",
+                  "1",
+                  "0",
+                  "1",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0-0",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "2",
+                  "-2"
+                ],
+                "athlt": {
+                  "id": "6427",
+                  "guid": "c0f39624-6c78-a95d-3682-11303cd9545a",
+                  "lnk": "https://www.espn.com/nba/player/_/id/6427/bismack-biyombo",
+                  "uid": "s:40~l:46~a:6427",
+                  "jersey": "18",
+                  "shrtNm": "B. Biyombo",
+                  "dspNm": "Bismack Biyombo"
+                }
+              },
+              {
+                "stats": [
+                  "7",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0-1",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "0-0",
+                  "0.0",
+                  "1",
+                  "-7"
+                ],
+                "athlt": {
+                  "id": "3134916",
+                  "guid": "e1d2e36a-3b3f-ce76-d98e-476fabd4add9",
+                  "lnk": "https://www.espn.com/nba/player/_/id/3134916/jordan-mclaughlin",
+                  "uid": "s:40~l:46~a:3134916",
+                  "jersey": "0",
+                  "shrtNm": "J. McLaughlin",
+                  "dspNm": "Jordan McLaughlin"
+                }
+              },
+              {
+                "stats": [
+                  "29",
+                  "20",
+                  "1",
+                  "5",
+                  "6",
+                  "8",
+                  "2",
+                  "0",
+                  "0",
+                  "8-11",
+                  "72.7",
+                  "0-0",
+                  "0.0",
+                  "4-4",
+                  "100.0",
+                  "4",
+                  "+33"
+                ],
+                "athlt": {
+                  "id": "5037871",
+                  "guid": "d8fd1989-052d-3e45-91f2-6fda54fa5c8e",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5037871/dylan-harper",
+                  "uid": "s:40~l:46~a:5037871",
+                  "jersey": "2",
+                  "shrtNm": "D. Harper",
+                  "dspNm": "Dylan Harper"
+                }
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "4433618",
+                  "guid": "b7005add-ef20-301c-bff8-4501d3443370",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4433618/harrison-ingram",
+                  "uid": "s:40~l:46~a:4433618",
+                  "jersey": "55",
+                  "shrtNm": "H. Ingram",
+                  "dspNm": "Harrison Ingram"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "4713010",
+                  "guid": "c9a1388d-3d66-3027-8960-ea7a7f470cad",
+                  "lnk": "https://www.espn.com/nba/player/_/id/4713010/david-jones-garcia",
+                  "uid": "s:40~l:46~a:4713010",
+                  "jersey": "25",
+                  "shrtNm": "D. Jones Garcia",
+                  "dspNm": "David Jones Garcia"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              },
+              {
+                "stats": [],
+                "athlt": {
+                  "id": "5177362",
+                  "guid": "1648f479-a8e9-324e-a4dd-48bb5afec2c3",
+                  "lnk": "https://www.espn.com/nba/player/_/id/5177362/riley-minix",
+                  "uid": "s:40~l:46~a:5177362",
+                  "jersey": "27",
+                  "shrtNm": "R. Minix",
+                  "dspNm": "Riley Minix"
+                },
+                "dnpRsn": "DNP-COACH'S DECISION"
+              }
+            ],
+            "keys": [
+              "minutes",
+              "points",
+              "offensiveRebounds",
+              "defensiveRebounds",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers",
+              "fieldGoalsMade-fieldGoalsAttempted",
+              "fieldGoalPct",
+              "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+              "threePointFieldGoalPct",
+              "freeThrowsMade-freeThrowsAttempted",
+              "freeThrowPct",
+              "fouls",
+              "plusMinus"
+            ],
+            "lbls": [
+              "MIN",
+              "PTS",
+              "OREB",
+              "DREB",
+              "REB",
+              "AST",
+              "STL",
+              "BLK",
+              "TO",
+              "FG",
+              "FG%",
+              "3PT",
+              "3PT%",
+              "FT",
+              "FT%",
+              "PF",
+              "+/-"
+            ],
+            "type": "bench"
+          },
+          {
+            "ttls": [
+              "",
+              "118",
+              "11",
+              "34",
+              "45",
+              "20",
+              "7",
+              "6",
+              "12",
+              "39-78",
+              "50.0",
+              "12-27",
+              "44.4",
+              "28-36",
+              "77.8",
+              "23",
+              ""
+            ],
+            "type": "totals"
+          }
+        ]
+      }
+    ],
+    "config": {
+      "bxscrMn": true
+    },
+    "meta": {
+      "stndngs": {
+        "headers": [
+          [
+            {
+              "type": "team"
+            },
+            {
+              "type": "wins"
+            },
+            {
+              "type": "losses"
+            },
+            {
+              "type": "winpercent"
+            },
+            {
+              "type": "gamesbehind"
+            },
+            {
+              "type": "streak"
+            }
+          ]
+        ],
+        "config": {
+          "isHeaderStatic": true
+        }
+      },
+      "gmHilghts": {
+        "lnk": "/nba/video/_/gameId/401809960"
+      },
+      "gmStry": {
+        "lnk": "/nba/recap/_/gameId/401809960"
+      },
+      "injrs": {
+        "lnk": "/nba/injuries"
+      },
+      "lstPlays": {
+        "lnk": "/nba/playbyplay/_/gameId/401809960"
+      },
+      "medialst": {
+        "lnk": "/nba/video/_/gameId/401809960"
+      },
+      "gmLdrs": {
+        "lnk": "/nba/boxscore/_/gameId/401809960",
+        "lnkPre": "/nba/stats"
+      },
+      "gmStrs": {
+        "lnk": "/nba/boxscore/_/gameId/401809960"
+      },
+      "onTheCourt": {
+        "headers": [
+          "fieldGoalsMade-fieldGoalsAttempted",
+          "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+          "rebounds",
+          "assists",
+          "fouls",
+          "points"
+        ],
+        "lnk": "/nba/boxscore/_/gameId/401809960"
+      },
+      "onTheCourtV4": {
+        "headers": [
+          "points",
+          "rebounds",
+          "assists",
+          "fouls",
+          "fieldGoalsMade-fieldGoalsAttempted"
+        ]
+      },
+      "tmStats": {
+        "grphHdrs": {
+          "tabs": [
+            {
+              "stats": [
+                {
+                  "key": "fieldGoalPct",
+                  "isPctStat": true
+                },
+                {
+                  "key": "threePointFieldGoalPct",
+                  "isPctStat": true
+                },
+                {
+                  "key": "totalTurnovers",
+                  "labelOverride": "Turnovers"
+                },
+                {
+                  "key": "totalRebounds"
+                }
+              ]
+            }
+          ]
+        },
+        "grphHdrsV4": {
+          "pre": {
+            "tabs": [
+              {
+                "stats": [
+                  {
+                    "key": "avgPoints",
+                    "labelOverride": "Points"
+                  },
+                  {
+                    "key": "avgPointsAgainst"
+                  },
+                  {
+                    "key": "fieldGoalPct",
+                    "isPctStat": true
+                  },
+                  {
+                    "key": "avgRebounds",
+                    "labelOverride": "Rebounds"
+                  },
+                  {
+                    "key": "avgAssists",
+                    "labelOverride": "Assists"
+                  },
+                  {
+                    "key": "avgBlocks",
+                    "labelOverride": "Blocks"
+                  },
+                  {
+                    "key": "avgSteals",
+                    "labelOverride": "Steals"
+                  }
+                ]
+              }
+            ]
+          },
+          "in": {
+            "tabs": [
+              {
+                "stats": [
+                  {
+                    "key": "fieldGoalPct",
+                    "isPctStat": true,
+                    "noteKey": "fieldGoalsMade-fieldGoalsAttempted"
+                  },
+                  {
+                    "key": "threePointFieldGoalPct",
+                    "isPctStat": true,
+                    "noteKey": "threePointFieldGoalsMade-threePointFieldGoalsAttempted"
+                  },
+                  {
+                    "key": "freeThrowPct",
+                    "isPctStat": true,
+                    "noteKey": "freeThrowsMade-freeThrowsAttempted"
+                  },
+                  {
+                    "key": "totalTurnovers",
+                    "labelOverride": "Turnovers"
+                  },
+                  {
+                    "key": "totalRebounds"
+                  },
+                  {
+                    "key": "largestLead"
+                  }
+                ]
+              }
+            ]
+          },
+          "post": {
+            "tabs": [
+              {
+                "stats": [
+                  {
+                    "key": "fieldGoalPct",
+                    "isPctStat": true,
+                    "noteKey": "fieldGoalsMade-fieldGoalsAttempted"
+                  },
+                  {
+                    "key": "threePointFieldGoalPct",
+                    "isPctStat": true,
+                    "noteKey": "threePointFieldGoalsMade-threePointFieldGoalsAttempted"
+                  },
+                  {
+                    "key": "freeThrowPct",
+                    "isPctStat": true,
+                    "noteKey": "freeThrowsMade-freeThrowsAttempted"
+                  },
+                  {
+                    "key": "totalTurnovers",
+                    "labelOverride": "Turnovers"
+                  },
+                  {
+                    "key": "totalRebounds"
+                  },
+                  {
+                    "key": "largestLead"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "mtchupTblHdrs": {
+          "fieldGoalsMade-fieldGoalsAttempted": "highlight",
+          "fieldGoalPct": "highlight",
+          "threePointFieldGoalsMade-threePointFieldGoalsAttempted": "highlight",
+          "threePointFieldGoalPct": "highlight",
+          "freeThrowsMade-freeThrowsAttempted": "highlight",
+          "freeThrowPct": "highlight",
+          "totalRebounds": "highlight",
+          "offensiveRebounds": "indent",
+          "defensiveRebounds": "indent",
+          "assists": "highlight",
+          "steals": "highlight",
+          "blocks": "highlight",
+          "totalTurnovers": "highlight",
+          "turnoverPoints": "indent",
+          "fastBreakPoints": "highlight",
+          "pointsInPaint": "highlight",
+          "fouls": "highlight",
+          "technicalFouls": "indent",
+          "flagrantFouls": "indent",
+          "largestLead": "highlight"
+        },
+        "tblHdrs": {
+          "avgPoints": "highlight",
+          "avgPointsAgainst": "highlight",
+          "fieldGoalPct": "highlight",
+          "threePointPct": "highlight",
+          "avgRebounds": "highlight",
+          "avgAssists": "highlight",
+          "avgBlocks": "highlight",
+          "avgSteals": "highlight",
+          "streak": "highlight",
+          "lasttengames": "highlight",
+          "Last Ten Games": "highlight",
+          "\u00daltimos 10 Juegos": "highlight"
+        },
+        "lnk": "/nba/matchup/_/gameId/401809960"
+      },
+      "pbp": {
+        "plyFltrs": {
+          "All Events": [
+            "Hit",
+            "Blocked",
+            "Shot",
+            "Missed",
+            "Penalty",
+            "Goal"
+          ],
+          "All Shots": [
+            "Shot",
+            "Missed",
+            "Goal"
+          ],
+          "Goals": [
+            "Goal"
+          ],
+          "Shots": [
+            "Shot",
+            "Missed"
+          ],
+          "Hits": [
+            "Hit"
+          ],
+          "Penalties": [
+            "Penalty"
+          ],
+          "Blocks": [
+            "Blocked"
+          ],
+          "Clear All Events": []
+        }
+      },
+      "bxscr": {
+        "grp": {
+          "types": [
+            "starters",
+            "bench",
+            {
+              "totals": "team"
+            }
+          ],
+          "keys": [
+            "minutes",
+            "points",
+            "offensiveRebounds",
+            "defensiveRebounds",
+            "rebounds",
+            "assists",
+            "steals",
+            "blocks",
+            "turnovers",
+            "fieldGoalsMade-fieldGoalsAttempted",
+            "fieldGoalPct",
+            "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+            "threePointFieldGoalPct",
+            "freeThrowsMade-freeThrowsAttempted",
+            "freeThrowPct",
+            "fouls",
+            "plusMinus"
+          ],
+          "primaryKeys": [
+            "minutes",
+            "points",
+            "rebounds",
+            "assists",
+            "steals",
+            "blocks",
+            "turnovers",
+            "fouls"
+          ]
+        },
+        "tabbed": false,
+        "showToggle": true,
+        "note": "boxscore.note.nba"
+      },
+      "oddsHdrs": [
+        "line",
+        "open",
+        "pointSpread",
+        "total",
+        "moneyline"
+      ],
+      "oddsOpnCol": [
+        "pointSpread",
+        "total"
+      ],
+      "oddsStrpHdrs": [
+        "pointSpread",
+        "total",
+        "moneyline"
+      ],
+      "oddsLineMrkt": "pointSpread",
+      "compactMarkets": 2
+    }
+  }
+}
