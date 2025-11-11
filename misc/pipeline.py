@@ -259,16 +259,40 @@ def main(backtest=False, predict_date='2025-11-06'):
         )
         
         if len(edge_scores) > 0:
-            output = edge_scores[['player', 'edge_score', 'top_1pct_rate', 'ownership_delta']].sort_values('edge_score', ascending=False)
-            print("\nTop 10 players by Edge Score:")
-            print(output.head(10).to_string(index=False))
+            output = edge_scores.copy()
+            
+            position_col = next((col for col in ['Roster Position', 'position', 'Position'] if col in output.columns), None)
+            team_col = next((col for col in ['team', 'Team', 'TeamAbbrev'] if col in output.columns), None)
+            salary_col = next((col for col in ['salary', 'Salary'] if col in output.columns), None)
+            ownership_col = next((col for col in ['ProjOwn', 'projected_ownership', 'proj_ownership', 'proj_own', 'field_ownership', 'Field Ownership'] if col in output.columns), None)
+            
+            display_df = pd.DataFrame()
+            display_df['player'] = output['player']
+            display_df['position'] = output[position_col] if position_col else ''
+            display_df['team'] = output[team_col] if team_col else ''
+            if salary_col:
+                display_df['salary'] = pd.to_numeric(output[salary_col], errors='coerce').fillna(0).astype(int)
+            else:
+                display_df['salary'] = 0
+            if ownership_col:
+                display_df['proj_own'] = pd.to_numeric(output[ownership_col], errors='coerce').fillna(0.0)
+            else:
+                display_df['proj_own'] = 0.0
+            display_df['edge_score'] = output['edge_score']
+            display_df['top_1pct_rate'] = output.get('top_1pct_rate', 0.0)
+            display_df['ownership_delta'] = output.get('ownership_delta', 0.0)
+            
+            display_df = display_df.sort_values('edge_score', ascending=False)
+            
+            print("\nTop 20 players by Edge Score:")
+            print(display_df.head(20).to_string(index=False))
         else:
             print("No edge scores generated")
 
 if __name__ == '__main__':
     import sys
     backtest = '--backtest' in sys.argv or '-b' in sys.argv
-    predict_date = '2025-11-06'
+    predict_date = '2025-11-11'
     if '--date' in sys.argv:
         idx = sys.argv.index('--date')
         if idx + 1 < len(sys.argv):

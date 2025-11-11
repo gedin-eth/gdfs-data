@@ -102,6 +102,7 @@ def create_input_labels_ls(slate_date):
     for _, row in ls_df.iterrows():
         player_name = row.get('Name', '')
         position = row.get('Position', '')
+        team = row.get('Team', '')
         projected = row.get('Projected', 0)
         salary = row.get('Salary', 0)
         ownership = row.get('ProjOwn', 0)
@@ -120,6 +121,7 @@ def create_input_labels_ls(slate_date):
             'roi_coef': 0.0,
             'appearances': 0,
             'Roster Position': position,
+            'Team': team,
             'projected': projected if pd.notna(projected) else 0.0,
             'salary': salary if pd.notna(salary) else 0
         })
