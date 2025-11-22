@@ -201,7 +201,7 @@ def main(backtest=False, predict_date='2025-11-06'):
     from config.settings import DATA_DIR
     
     train_slates = []
-    for i in range(18):
+    for i in range(27):
         date = datetime(2025, 10, 21) + timedelta(days=i)
         date_str = date.strftime('%Y-%m-%d')
         file_str = date.strftime('%Y%m%d')
@@ -220,7 +220,7 @@ def main(backtest=False, predict_date='2025-11-06'):
     
     if backtest:
         all_slates = []
-        for i in range(18):
+        for i in range(27):
             date = datetime(2025, 10, 21) + timedelta(days=i)
             date_str = date.strftime('%Y-%m-%d')
             date_file = date_str.replace('-', '')
@@ -251,6 +251,18 @@ def main(backtest=False, predict_date='2025-11-06'):
                 actual_str = f"{actual_score:.2f}" if actual_score is not None else "N/A"
                 own_str = f"{ownership}" if ownership is not None and str(ownership) != '' else "N/A"
                 print(f"{i:<6} {player:<30} {edge_score:<12.2f} {actual_str:<12} {own_str:<12}")
+            
+            # Print last names list
+            last_names = [name.split()[-1] if ' ' in str(name) else str(name) for name in top_10['player'].tolist()]
+            print("\npp_list = [")
+            for i in range(0, len(last_names), 6):
+                chunk = last_names[i:i+6]
+                names_str = ', '.join([f"'{name}'" for name in chunk])
+                if i + 6 < len(last_names):
+                    print(f"    {names_str},")
+                else:
+                    print(f"    {names_str}")
+            print("]")
             print()
     else:
         print(f"Generating edge scores for {predict_date}...")
@@ -286,6 +298,19 @@ def main(backtest=False, predict_date='2025-11-06'):
             
             print("\nTop 20 players by Edge Score:")
             print(display_df.head(20).to_string(index=False))
+            
+            # Print last names list
+            top_players = display_df.head(20)['player'].tolist()
+            last_names = [name.split()[-1] if ' ' in str(name) else str(name) for name in top_players]
+            print("\npp_list = [")
+            for i in range(0, len(last_names), 6):
+                chunk = last_names[i:i+6]
+                names_str = ', '.join([f"'{name}'" for name in chunk])
+                if i + 6 < len(last_names):
+                    print(f"    {names_str},")
+                else:
+                    print(f"    {names_str}")
+            print("]")
         else:
             print("No edge scores generated")
 

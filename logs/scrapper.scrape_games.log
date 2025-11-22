@@ -2942,3 +2942,68 @@
 2025-11-13 01:16:47,993 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-10
 2025-11-13 01:16:47,995 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-11
 2025-11-13 01:16:47,997 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-12
+2025-11-17 10:24:46,748 - scrapper.scrape_games - INFO - No existing games found for 2025-11-16, attempting to find games to scrape
+2025-11-17 10:24:46,752 - scrapper.scrape_games - INFO - Found 10 teams from linestar data: ['DAL', 'CHI', 'PHX', 'HOU', 'ORL', 'GSW', 'ATL', 'NOP', 'POR', 'UTA']
+2025-11-17 10:24:53,095 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-11-16...
+2025-11-17 10:24:53,566 - scrapper.scrape_games - INFO - Scoreboard found 8 potential games for 2025-11-16
+2025-11-17 10:24:53,567 - scrapper.scrape_games - INFO - Added game 401810088 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,568 - scrapper.scrape_games - INFO - Added game 401810089 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,569 - scrapper.scrape_games - INFO - Added game 401810090 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,570 - scrapper.scrape_games - INFO - Added game 401810091 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,571 - scrapper.scrape_games - INFO - Added game 401810092 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,572 - scrapper.scrape_games - INFO - Added game 401810093 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,572 - scrapper.scrape_games - INFO - Added game 401810094 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,573 - scrapper.scrape_games - INFO - Added game 401810095 from scoreboard (will verify date after scraping)
+2025-11-17 10:24:53,573 - scrapper.scrape_games - INFO - Found 8 total games for 2025-11-16 (existing: 0, new: 8)
+2025-11-17 10:24:53,574 - scrapper.scrape_games - INFO - Final: 8 games for 2025-11-16
+2025-11-17 10:24:53,574 - scrapper.scrape_games - INFO - Scraping game 401810093 for 2025-11-16 (missing files)
+2025-11-17 10:24:54,209 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810093
+2025-11-17 10:24:54,210 - scrapper.scrape_games - INFO - Scraping game 401810090 for 2025-11-16 (missing files)
+2025-11-17 10:24:54,930 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810090
+2025-11-17 10:24:54,931 - scrapper.scrape_games - INFO - Scraping game 401810095 for 2025-11-16 (missing files)
+2025-11-17 10:24:55,495 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810095
+2025-11-17 10:24:55,496 - scrapper.scrape_games - INFO - Scraping game 401810089 for 2025-11-16 (missing files)
+2025-11-17 10:24:56,246 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810089
+2025-11-17 10:24:56,247 - scrapper.scrape_games - INFO - Scraping game 401810091 for 2025-11-16 (missing files)
+2025-11-17 10:24:56,876 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810091
+2025-11-17 10:24:56,880 - scrapper.scrape_games - INFO - Scraping game 401810088 for 2025-11-16 (missing files)
+2025-11-17 10:24:57,465 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810088
+2025-11-17 10:24:57,466 - scrapper.scrape_games - INFO - Scraping game 401810092 for 2025-11-16 (missing files)
+2025-11-17 10:24:58,166 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810092
+2025-11-17 10:24:58,166 - scrapper.scrape_games - INFO - Scraping game 401810094 for 2025-11-16 (missing files)
+2025-11-17 10:24:58,919 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810094
+2025-11-17 10:24:58,919 - scrapper.scrape_games - INFO - Processed 8 games for 2025-11-16: ['401810093', '401810090', '401810095', '401810089', '401810091', '401810088', '401810092', '401810094']
+2025-11-17 10:24:58,936 - scrapper.scrape_games - INFO - Saved PBP features for 2025-11-16
+2025-11-19 04:05:40,055 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-16
+2025-11-19 04:28:31,336 - scrapper.scrape_games - INFO - No existing games found for 2025-11-18, attempting to find games to scrape
+2025-11-19 04:28:31,338 - scrapper.scrape_games - INFO - Found 8 teams from linestar data: ['SAS', 'DET', 'ATL', 'GSW', 'ORL', 'BOS', 'MEM', 'BKN']
+2025-11-19 04:28:32,778 - scrapper.scrape_games - INFO - Found 1 games for DET, 1 match date 2025-11-18
+2025-11-19 04:28:36,102 - scrapper.scrape_games - INFO - Checking ESPN scoreboard for 2025-11-18...
+2025-11-19 04:28:36,359 - scrapper.scrape_games - INFO - Scoreboard found 6 potential games for 2025-11-18
+2025-11-19 04:28:36,361 - scrapper.scrape_games - INFO - Added game 401810104 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,361 - scrapper.scrape_games - INFO - Added game 401810105 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,362 - scrapper.scrape_games - INFO - Added game 401810106 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,363 - scrapper.scrape_games - INFO - Added game 401810107 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,364 - scrapper.scrape_games - INFO - Added game 401810108 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,365 - scrapper.scrape_games - INFO - Added game 401810109 from scoreboard (will verify date after scraping)
+2025-11-19 04:28:36,366 - scrapper.scrape_games - INFO - Found 7 total games for 2025-11-18 (existing: 0, new: 7)
+2025-11-19 04:28:36,367 - scrapper.scrape_games - INFO - Final: 7 games for 2025-11-18
+2025-11-19 04:28:36,367 - scrapper.scrape_games - INFO - Scraping game 401810105 for 2025-11-18 (missing files)
+2025-11-19 04:28:36,914 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810105
+2025-11-19 04:28:36,915 - scrapper.scrape_games - INFO - Scraping game 401810107 for 2025-11-18 (missing files)
+2025-11-19 04:28:37,565 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810107
+2025-11-19 04:28:37,566 - scrapper.scrape_games - INFO - Scraping game 401810108 for 2025-11-18 (missing files)
+2025-11-19 04:28:38,205 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810108
+2025-11-19 04:28:38,205 - scrapper.scrape_games - INFO - Scraping game 401810106 for 2025-11-18 (missing files)
+2025-11-19 04:28:38,912 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810106
+2025-11-19 04:28:38,913 - scrapper.scrape_games - INFO - Scraping game 401810097 for 2025-11-18 (missing files)
+2025-11-19 04:28:39,643 - scrapper.scrape_games - WARNING - Scraped game 401810097 but date mismatch (got 2025-11-17, expected 2025-11-18)
+2025-11-19 04:28:39,644 - scrapper.scrape_games - INFO - Scraping game 401810109 for 2025-11-18 (missing files)
+2025-11-19 04:28:40,154 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810109
+2025-11-19 04:28:40,155 - scrapper.scrape_games - INFO - Scraping game 401810104 for 2025-11-18 (missing files)
+2025-11-19 04:28:40,643 - scrapper.scrape_games - INFO - Successfully scraped and processed game 401810104
+2025-11-19 04:28:40,643 - scrapper.scrape_games - INFO - Processed 6 games for 2025-11-18: ['401810105', '401810107', '401810108', '401810106', '401810109', '401810104']
+2025-11-19 04:28:40,655 - scrapper.scrape_games - INFO - Saved PBP features for 2025-11-18
+2025-11-19 04:30:25,499 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-18
+2025-11-19 04:35:51,059 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-18
+2025-11-22 08:34:37,477 - scrapper.scrape_games - INFO - Loading existing PBP features for 2025-11-18
